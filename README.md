@@ -60,7 +60,7 @@ NotY215
 ## 🌪️ Vayu
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NotY215/Vayu/main/assets/logo.svg" alt="Vayu logo" width="180">
+<img src="https://raw.githubusercontent.com/NotY215/Vayu/0b329e067cb3162b894bf690247eb44e95b0ae5b/assets/logo.svg" alt="Vayu logo" width="180">
 </div>
 
 **Vayu** is my main programming-language project.
@@ -84,7 +84,7 @@ The direction is a Python-inspired language with native compilation, static typi
 ## ⚙️ VCB
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NotY215/VCB/main/Assets/VCB_banner.svg" alt="VCB banner" width="760">
+<img src="https://raw.githubusercontent.com/NotY215/VCB/e4470820ebe163b01a7a29841e9e66bd881ca688/Assets/VCB_banner.svg" alt="VCB banner" width="760">
 </div>
 
 **VCB** means **Vayu Compiler Backend**.
