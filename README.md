@@ -211,11 +211,11 @@ Not every project needs to become huge. Small experiments are part of learning t
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NotY215&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;theme=transparent" alt="NotY215 GitHub statistics">
+<img src="https://github-stats-extended.vercel.app/api?username=NotY215&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;theme=transparent" alt="NotY215 GitHub statistics">
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotY215&amp;layout=compact&amp;hide_border=true&amp;theme=transparent" alt="NotY215 top languages">
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NotY215&amp;layout=compact&amp;hide_border=true&amp;theme=transparent" alt="NotY215 top languages">
 
 <br>
 
