@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="https://avatars.githubusercontent.com/u/180653079?v=4" alt="NotY215 avatar" width="120" height="120">
+
 <img src="assets/logo.svg" alt="NotY215" width="760">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&text=NotY215&fontSize=38&fontColor=ffffff&fontAlignY=35&animation=twinkling&color=0:7c3aed,50:06b6d4,100:22c55e" width="100%" alt="Animated NotY215 header">
@@ -10,7 +12,6 @@
 
 <p>
 <a href="https://github.com/NotY215"><img src="https://img.shields.io/github/followers/NotY215?label=Followers&style=for-the-badge" alt="Followers"></a>
-<a href="https://github.com/NotY215?tab=repositories"><img src="https://img.shields.io/github/repos/NotY215?style=for-the-badge&label=Public%20Repos" alt="Public repositories"></a>
 <a href="https://komarev.com/ghpvc/?username=NotY215"><img src="https://komarev.com/ghpvc/?username=NotY215&style=for-the-badge&color=7c3aed" alt="Profile views"></a>
 </p>
 
@@ -41,7 +42,7 @@ NotY215
 ├── AI & Media
 │   ├── NotY Caption
 │   ├── NotY Upscaler
-│   └── NotY VidGen
+│   └── NotY Caption Official
 ├── Game Tools
 │   ├── NotY Game Repacker
 │   ├── AutoTotem
@@ -57,6 +58,10 @@ NotY215
 # 🚀 Main Projects
 
 ## 🌪️ Vayu
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/NotY215/Vayu/main/assets/logo.svg" alt="Vayu logo" width="180">
+</div>
 
 **Vayu** is my main programming-language project.
 
@@ -77,6 +82,10 @@ The direction is a Python-inspired language with native compilation, static typi
 ---
 
 ## ⚙️ VCB
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/NotY215/VCB/main/Assets/VCB_banner.svg" alt="VCB banner" width="760">
+</div>
 
 **VCB** means **Vayu Compiler Backend**.
 
@@ -124,12 +133,10 @@ It also explores a PS3-compatible execution environment as part of the wider sys
 | **NotYCaptionGenAi-Light-weight** | Whisper-based caption and transcription workflow with FFmpeg and vocal separation |
 | **NotYUpscalerZAI** | AI-focused video and image upscaling |
 | **NotyCaption-Official** | NotY Caption application and website work |
-| **NotYVidGen** | Experimental video-generation workflows |
 
 **Caption Generator:** [Repository](https://github.com/NotY215/NotYCaptionGenAi-Light-weight)  
 **Upscaler:** [Repository](https://github.com/NotY215/NotYUpscalerZAI)  
-**Caption Official:** [Repository](https://github.com/NotY215/NotyCaption-Official)  
-**VidGen:** [Repository](https://github.com/NotY215/NotYVidGen)
+**Caption Official:** [Repository](https://github.com/NotY215/NotyCaption-Official)
 
 ---
 
@@ -204,15 +211,15 @@ Not every project needs to become huge. Small experiments are part of learning t
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NotY215&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="NotY215 GitHub statistics">
+<img src="https://github-readme-stats.vercel.app/api?username=NotY215&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;theme=transparent" alt="NotY215 GitHub statistics">
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotY215&layout=compact&hide_border=true&theme=transparent" alt="NotY215 top languages">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotY215&amp;layout=compact&amp;hide_border=true&amp;theme=transparent" alt="NotY215 top languages">
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NotY215&hide_border=true&bg_color=00000000&color=22d3ee&line=7c3aed&point=22c55e&area=true&area_color=7c3aed" alt="NotY215 GitHub activity">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NotY215&amp;hide_border=true&amp;bg_color=00000000&amp;color=22d3ee&amp;line=7c3aed&amp;point=22c55e&amp;area=true&amp;area_color=7c3aed" alt="NotY215 GitHub activity">
 
 </div>
 
@@ -335,7 +342,7 @@ Vayu is the center of that direction. The other projects let me explore differen
 
 <div align="center">
 
-[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [YouTube](https://www.youtube.com/@NotY215) • [Telegram](https://t.me/Noty_215)
+[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215)
 
 <br><br>
 
