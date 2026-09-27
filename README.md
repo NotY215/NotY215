@@ -21,7 +21,11 @@
 
 ## $ whoami
 
-I am **NotY215**, an independent developer building software across languages, compilers, systems, AI, media, games and developer tools.
+I am **Shreyas Mishra**, also known as **NotY215**.
+
+I am an independent developer working on programming languages, compilers, systems, AI, media, games and developer tools.
+
+Instagram: **@mishra_shreyas215**
 
 I like going below the surface. If something is interesting, I want to understand how it works and eventually build my own version.
 
@@ -342,7 +346,7 @@ Vayu is the center of that direction. The other projects let me explore differen
 
 <div align="center">
 
-[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [Modrinth](https://modrinth.com/user/NotY215) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215)
+[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [Modrinth](https://modrinth.com/user/NotY215) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215) • [YouTube: NotY215](https://www.youtube.com/@NotY215) • [YouTube: Aayush Crossing](https://www.youtube.com/@AayushCrossing)
 
 <br><br>
 
