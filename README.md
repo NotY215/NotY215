@@ -60,7 +60,7 @@ NotY215
 ## 🌪️ Vayu
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NotY215/Vayu/0b329e067cb3162b894bf690247eb44e95b0ae5b/assets/logo-banner.svg" alt="Vayu logo" width="180">
+<img src="https://raw.githubusercontent.com/NotY215/Vayu/0b329e067cb3162b894bf690247eb44e95b0ae5b/assets/logo-banner.svg" alt="Vayu logo" width="393">
 </div>
 
 **Vayu** is my main programming-language project.
