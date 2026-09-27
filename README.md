@@ -1,19 +1,18 @@
+<!-- NotY215 profile README -->
 
 <div align="center">
 
-<img src="assets/logo.svg" alt="NotY215" width="720">
+<img src="assets/logo.svg" alt="NotY215" width="760">
 
-# NotY215
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&text=NotY215&fontSize=38&fontColor=ffffff&fontAlignY=35&animation=twinkling&color=0:7c3aed,50:06b6d4,100:22c55e" width="100%" alt="Animated NotY215 header">
 
-### Code. Create. Experiment. Repeat.
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=800&lines=Programming+Languages+%7C+Compilers+%7C+Systems;AI+Tools+%7C+Game+Tools+%7C+Creative+Software;Building+Vayu+%2B+VCB+%2B+NotY+projects;Learning+by+building+the+whole+thing" alt="NotY215 animated introduction">
 
 <p>
-  <a href="https://github.com/NotY215"><img src="https://img.shields.io/github/followers/NotY215?label=Followers&style=for-the-badge" alt="Followers"></a>
-  <a href="https://github.com/NotY215?tab=repositories"><img src="https://img.shields.io/github/repos/NotY215?style=for-the-badge&label=Public%20Repos" alt="Public repositories"></a>
-  <a href="https://komarev.com/ghpvc/?username=NotY215"><img src="https://komarev.com/ghpvc/?username=NotY215&style=for-the-badge&color=7c3aed" alt="Profile views"></a>
+<a href="https://github.com/NotY215"><img src="https://img.shields.io/github/followers/NotY215?label=Followers&style=for-the-badge" alt="Followers"></a>
+<a href="https://github.com/NotY215?tab=repositories"><img src="https://img.shields.io/github/repos/NotY215?style=for-the-badge&label=Public%20Repos" alt="Public repositories"></a>
+<a href="https://komarev.com/ghpvc/?username=NotY215"><img src="https://komarev.com/ghpvc/?username=NotY215&style=for-the-badge&color=7c3aed" alt="Profile views"></a>
 </p>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=760&lines=Programming+Languages+%7C+Compilers+%7C+Systems;AI+Tools+%7C+Game+Tools+%7C+Creative+Software;Building+Vayu+%2B+VCB+%2B+NotY+projects;Learning+by+building+the+whole+thing" alt="Animated introduction">
 
 </div>
 
@@ -21,20 +20,24 @@
 
 ## $ whoami
 
-I am **NotY215**, an independent developer who likes building things from the ground up.
+I am **NotY215**, an independent developer building software across languages, compilers, systems, AI, media, games and developer tools.
 
-My work moves between programming languages, compilers, backend systems, operating systems, AI-powered tools, game utilities, media tools, and creative software.
+I like going below the surface. If something is interesting, I want to understand how it works and eventually build my own version.
 
-I prefer understanding how a system works internally instead of stopping at the surface.
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2b04-4e3b-93ca-ac14705da224.gif" width="420" alt="Animated coding GIF">
+</div>
 
-~~~text
+### What I work on
+
+```text
 NotY215
-├── Languages
-│   └── Vayu
-├── Compiler & Backend
-│   └── VCB
-├── Systems
-│   └── NotYVOS
+├── Vayu
+│   └── Programming language + ecosystem
+├── VCB
+│   └── Native compiler backend
+├── NotYVOS
+│   └── x86-64 operating system
 ├── AI & Media
 │   ├── NotY Caption
 │   ├── NotY Upscaler
@@ -43,24 +46,11 @@ NotY215
 │   ├── NotY Game Repacker
 │   ├── AutoTotem
 │   └── HeartsPlugin
-└── Experiments
-    └── DXFS
-~~~
-
----
-
-## ⚡ What I Build
-
-| Area | Work |
-|---|---|
-| 🧠 Language Design | **Vayu**, a Python-inspired native programming language |
-| ⚙️ Compiler Engineering | **VCB**, Vayu's independent compiler backend |
-| 🖥️ Operating Systems | **NotYVOS**, an x86-64 OS project with a PS3-compatible execution environment |
-| 🤖 AI | Captioning, transcription, upscaling and media automation tools |
-| 🎮 Game Development | Game packaging, Minecraft mods and game-related utilities |
-| 🧰 Developer Tools | Compilers, formatters, language tooling and experimental utilities |
-| 🎬 Creative Tools | Video, caption and media-processing software |
-| 🧪 Experiments | Small systems and file-format experiments |
+├── DXFS
+│   └── File-format + terminal experiment
+└── Vayu Website
+    └── Project website and documentation
+```
 
 ---
 
@@ -70,261 +60,159 @@ NotY215
 
 **Vayu** is my main programming-language project.
 
-It is designed around:
+The direction is a Python-inspired language with native compilation, static typing and type inference, low-level control, C/C++ interoperability, tooling, packages, GUI and application development, games, graphics and future AI/ML support.
 
-- Python-inspired readable syntax
-- Native compilation
-- Static typing and type inference
-- Low-level control
-- C/C++ interoperability
-- Python ecosystem interoperability
-- GUI and application development
-- Game and graphics development
-- AI/ML ambitions
-- Cross-platform development
-- Dedicated package tooling
-- Language Server, formatter and linter tooling
-
-Vayu source files use **.vyu**.
+**Source:** [NotY215/Vayu](https://github.com/NotY215/Vayu)  
+**Website:** [vayu.gt.tc](https://vayu.gt.tc)
 
 ### Vayu ecosystem
 
-| Project | Purpose |
+| Project | Role |
 |---|---|
-| **Vayu** | Compiler, runtime and language |
+| **Vayu** | Language, compiler and runtime |
 | **VCB** | Independent native compiler backend |
-| **Vayu Website** | Documentation, roadmap and project information |
-| **Vayu VS Code tooling** | Editor support, LSP, formatter and linter |
-
-**Website:** https://vayu.gt.tc  
-**Source:** https://github.com/NotY215/Vayu  
-**Backend:** https://github.com/NotY215/VCB
+| **Vayu Website** | Website, documentation and roadmap |
+| **VS Code tooling** | Editor and language tooling |
 
 ---
 
 ## ⚙️ VCB
 
-**VCB** stands for **Vayu Compiler Backend**.
+**VCB** means **Vayu Compiler Backend**.
 
-It is a separate C++20 project intended to replace the QBE + GCC backend path with a direct native backend.
+It is a separate C++20 backend project focused on taking Vayu toward direct native code generation.
 
-Current work includes:
+Current areas include:
 
 - Textual SSA IR
-- IR parser
-- IR printer
-- vcb dump
+- IR parser and printer
+- `vcb dump`
 - x86-64 code generation
-- PE writer
-- ELF writer
-- Native runtime integration
+- PE and ELF writers
+- Runtime integration
 
-VCB is being developed separately from Vayu so the backend can evolve independently.
+VCB is developed independently so the backend can evolve without being tied to the rest of the compiler.
 
-**Repository:** https://github.com/NotY215/VCB
+**Repository:** [NotY215/VCB](https://github.com/NotY215/VCB)
 
 ---
 
 ## 🖥️ NotYVOS
 
-**NotYVOS** is a lightweight x86-64 operating-system project.
+**NotYVOS** is an x86-64 operating-system project.
 
-The project combines:
+The project works with:
 
-- C++
 - C
+- C++
 - x86-64 Assembly
 - Clang/LLVM
 - CMake
 - Ninja
 - Limine
 
-A major part of the project is an integrated **PS3-compatible execution environment**.
+It also explores a PS3-compatible execution environment as part of the wider systems work.
 
-**Repository:** https://github.com/NotY215/NotYVOS
+**Repository:** [NotY215/NotYVOS](https://github.com/NotY215/NotYVOS)
 
 ---
 
 # 🤖 AI & Media
 
-## 🎬 NotY Caption Generator AI
+| Project | Focus |
+|---|---|
+| **NotYCaptionGenAi-Light-weight** | Whisper-based caption and transcription workflow with FFmpeg and vocal separation |
+| **NotYUpscalerZAI** | AI-focused video and image upscaling |
+| **NotyCaption-Official** | NotY Caption application and website work |
+| **NotYVidGen** | Experimental video-generation workflows |
 
-An AI subtitle and caption generation tool built around Whisper, Spleeter and FFmpeg.
-
-Features include:
-
-- Whisper transcription
-- Word-level timestamps
-- Vocal separation
-- YouTube input
-- Multi-language transcription
-- Translation mode
-- Smart subtitle formatting
-- Audio chunking
-- Automatic cleanup
-- Windows builds
-
-**Repository:** https://github.com/NotY215/NotYCaptionGenAi-Light-weight
-
-## 🖼️ NotY Upscaler ZAI
-
-An AI-focused video/image upscaling project in the NotY tool ecosystem.
-
-**Repository:** https://github.com/NotY215/NotYUpscalerZAI
-
-## 🎞️ NotY Caption Official
-
-The official NotY Caption project and its related application and website work.
-
-**Repository:** https://github.com/NotY215/NotyCaption-Official
-
-## 🎥 NotY VidGen
-
-An experimental project focused on video generation workflows.
-
-**Repository:** https://github.com/NotY215/NotYVidGen
+**Caption Generator:** [Repository](https://github.com/NotY215/NotYCaptionGenAi-Light-weight)  
+**Upscaler:** [Repository](https://github.com/NotY215/NotYUpscalerZAI)  
+**Caption Official:** [Repository](https://github.com/NotY215/NotyCaption-Official)  
+**VidGen:** [Repository](https://github.com/NotY215/NotYVidGen)
 
 ---
 
-# 🎮 Game & Minecraft Projects
+# 🎮 Game & Minecraft
 
-## 📦 NotY Game Repacker
+### 📦 NotYGameRepacker
 
-A Windows game packaging and repacking system using a custom **.noty** package format.
+A Windows game packaging and repacking system built around a custom `.noty` package format.
 
-Technical focus:
+**Stack:** C++20, Qt6, CMake, Zstandard, AES-256-GCM, BLAKE3, streaming and multithreading.
 
-- C++20
-- Qt6
-- CMake
-- Zstandard
-- AES-256-GCM
-- BLAKE3
-- Streaming operations
-- Multi-threaded processing
-- Installer and repacker applications
+[Repository](https://github.com/NotY215/NotYGameRepacker)
 
-**Repository:** https://github.com/NotY215/NotYGameRepacker
+### 🛡️ AutoTotem
 
-## 🛡️ AutoTotem
+A Fabric client-side Minecraft mod for automatic Totem of Undying management.
 
-A Fabric client-side Minecraft mod that automatically manages a Totem of Undying in the off-hand based on health.
+[Repository](https://github.com/NotY215/AutoTotem)
 
-**Repository:** https://github.com/NotY215/AutoTotem
-
-## ❤️ HeartsPlugin
+### ❤️ HeartsPlugin
 
 A Minecraft plugin project.
 
-**Repository:** https://github.com/NotY215/HeartsPlugin
+[Repository](https://github.com/NotY215/HeartsPlugin)
 
 ---
 
-# 🧪 Smaller Projects & Experiments
+# 🧪 DXFS
 
-## 🔢 DXFS
+**DXFS** is a C++17 file-format and terminal-editor experiment focused on compact representations of large digit sequences using packed data and generators.
 
-A C++17 digit-container file format and terminal editor.
-
-DXFS explores compact representations for large digit sequences using packed data and generators.
-
-**Repository:** https://github.com/NotY215/DXFS
+[Repository](https://github.com/NotY215/DXFS)
 
 ---
 
-# 🧰 Developer Toolbox
-
-My projects often use or explore:
+# 🧰 Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,c,python,java,cmake,git,github,vscode,linux,windows&perline=10" alt="Technology stack">
+<img src="https://skillicons.dev/icons?i=cpp,c,python,java,cmake,git,github,vscode,linux,windows&perline=10" alt="NotY215 technology stack">
 
 </div>
 
-### Languages
-
-C++ • C • Python • Java • Vayu • x86-64 Assembly
-
-### Systems & Build
-
-CMake • Ninja • LLVM • Clang • Git • GitHub
-
-### AI & Media
-
-Whisper • Spleeter • FFmpeg • Nuitka • PyInstaller
-
-### Application & Game
-
-Qt • Fabric • Minecraft • OpenGL • Windows
+**Languages:** C++ • C • Python • Java • Vayu • x86-64 Assembly  
+**Systems:** CMake • Ninja • LLVM • Clang • Git  
+**AI & Media:** Whisper • Spleeter • FFmpeg • Nuitka • PyInstaller  
+**Application & Game:** Qt • Fabric • Minecraft • OpenGL • Windows
 
 ---
 
-# 🎯 My Goals
+# 🎯 Goals
 
-### 01. Build Vayu into a complete language ecosystem
+### Build Vayu into a complete ecosystem
 
-Not just a compiler.
+Compiler, runtime, standard library, packages, LSP, formatter, linter, debugging, GUI, graphics, game development, AI/ML and native interoperability.
 
-The long-term direction includes:
+### Build VCB independently
 
-- Native compiler
-- Self-hosting
-- Standard library
-- Package ecosystem
-- LSP
-- Formatter
-- Linter
-- Debugging tools
-- GUI stack
-- Game-development stack
-- AI/ML stack
-- Graphics APIs
-- Native interoperability
-- Cross-platform tooling
+Turn VCB into a capable native backend with its own IR, code generation, object writers and runtime path.
 
-### 02. Build VCB independently
+### Learn systems by building them
 
-VCB is intended to become a real native compiler backend instead of depending permanently on an external backend chain.
+Compilers, IRs, code generation, linkers, operating systems, runtimes, file formats, networking, graphics and CPU architecture.
 
-### 03. Learn systems by building systems
+### Keep experimenting
 
-That includes:
-
-- Compilers
-- IRs
-- Code generation
-- Linkers
-- Operating systems
-- Runtime systems
-- File formats
-- Networking
-- Graphics
-- CPU architecture
-
-### 04. Keep experimenting
-
-Some projects are serious long-term systems.
-
-Some are small experiments.
-
-Both are useful.
+Not every project needs to become huge. Small experiments are part of learning too.
 
 ---
 
-# 📈 GitHub Activity
+# 📊 GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NotY215&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub statistics">
+<img src="https://github-readme-stats.vercel.app/api?username=NotY215&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="NotY215 GitHub statistics">
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotY215&layout=compact&hide_border=true&theme=transparent" alt="Top languages">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotY215&layout=compact&hide_border=true&theme=transparent" alt="NotY215 top languages">
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NotY215&hide_border=true&bg_color=00000000&color=22d3ee&line=7c3aed&point=22c55e&area=true&area_color=7c3aed" alt="GitHub activity graph">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NotY215&hide_border=true&bg_color=00000000&color=22d3ee&line=7c3aed&point=22c55e&area=true&area_color=7c3aed" alt="NotY215 GitHub activity">
 
 </div>
 
@@ -332,28 +220,28 @@ Both are useful.
 
 # htop Activity
 
-~~~text
- NotY215 system monitor
- ─────────────────────────────────────────────────────────────
+```text
+ NotY215 activity monitor
+ ─────────────────────────────────────────────────────────
 
- PID   PROJECT              STATE       CPU     MEMORY
- 001   Vayu                 BUILDING    ██████░  compiler
- 002   VCB                  BUILDING    █████░░  backend
- 003   NotYVOS              RUNNING     ████░░░  kernel
- 004   NotY Caption         ACTIVE      ███░░░░  AI/media
- 005   NotY Game Repacker   ACTIVE      ██░░░░░  tooling
- 006   AutoTotem            ACTIVE      ██░░░░░  Minecraft
- 007   DXFS                 EXPERIMENT   █░░░░░░  research
+ PID   PROJECT              STATE
+ 001   Vayu                 BUILDING
+ 002   VCB                  BUILDING
+ 003   NotYVOS              RUNNING
+ 004   NotY Caption         ACTIVE
+ 005   NotYGameRepacker     ACTIVE
+ 006   AutoTotem            ACTIVE
+ 007   DXFS                 EXPERIMENT
 
- STATUS: building
- FOCUS: languages • compilers • systems • tools
-~~~
+ STATUS  : building
+ FOCUS   : languages • compilers • systems • tools
+```
 
 ---
 
 # 🧭 Current Direction
 
-~~~text
+```text
 Vayu
  │
  ├── Language
@@ -378,13 +266,13 @@ Vayu
 NotYVOS
  └── x86-64 OS
       └── PS3-compatible execution environment
-~~~
+```
 
 ---
 
 # 🎨 Outside Code
 
-I also work with:
+I also spend time on:
 
 - 🎬 Video editing
 - 🎞️ Anime edits
@@ -393,7 +281,7 @@ I also work with:
 - 🧩 Game development
 - 🧪 Technical experimentation
 
-Code is the main focus, but creative work is part of the same workflow.
+Creative work and programming often overlap in the same projects.
 
 ---
 
@@ -401,15 +289,7 @@ Code is the main focus, but creative work is part of the same workflow.
 
 I learn by building.
 
-Instead of only reading about a compiler, I build one.
-
-Instead of only reading about an OS, I build one.
-
-Instead of only reading about an IR, I design one.
-
-The projects are the learning process.
-
-~~~text
+```text
 Question
    ↓
 Research
@@ -423,17 +303,15 @@ Understand why
 Rebuild it
    ↓
 Keep going
-~~~
+```
 
 ---
 
 # 🔭 Long-Term
 
-The bigger goal is not one application.
+The bigger direction is an ecosystem where the pieces connect:
 
-It is a connected ecosystem of software built from the ground up.
-
-~~~text
+```text
 Language
    ↓
 Compiler
@@ -447,32 +325,25 @@ Tools
 Applications
    ↓
 Systems
-~~~
+```
 
-Vayu is the center of that direction, while the other projects let me explore different layers of software engineering.
+Vayu is the center of that direction. The other projects let me explore different layers of software engineering.
 
 ---
 
 # 🔗 Find Me
 
-<p align="center">
-  <a href="https://github.com/NotY215">GitHub</a> •
-  <a href="https://vayu.gt.tc">Vayu</a> •
-  <a href="https://www.youtube.com/@NotY215">YouTube</a> •
-  <a href="https://t.me/Noty_215">Telegram</a>
-</p>
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2600&pause=700&color=7C3AED&center=true&vCenter=true&width=720&lines=Build+it.;Understand+it.;Break+it.;Rebuild+it.;Ship+it." alt="Animated closing text">
+[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [YouTube](https://www.youtube.com/@NotY215) • [Telegram](https://t.me/Noty_215)
 
-</div>
+<br><br>
 
----
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&duration=2400&pause=700&color=7C3AED&center=true&vCenter=true&width=720&lines=Build+it.;Understand+it.;Break+it.;Rebuild+it.;Ship+it." alt="NotY215 closing animation">
 
-<div align="center">
+<br>
 
-<img src="assets/favicon.svg" alt="NotY215 mark" width="48">
+<img src="assets/favicon.svg" alt="NotY215 icon" width="64">
 
 ### NotY215
 
