@@ -342,7 +342,7 @@ Vayu is the center of that direction. The other projects let me explore differen
 
 <div align="center">
 
-[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215)
+[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [Modrinth](https://modrinth.com/user/NotY215) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215)
 
 <br><br>
 
