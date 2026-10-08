@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "NotY215"
+message: "If you reference the NotY215 project profile, please cite this repository."
+type: software
+authors:
+  - given-names: Shreyas
+    family-names: Mishra
+    affiliation: NotY215
+repository-code: "https://github.com/NotY215/NotY215"
+url: "https://github.com/NotY215"
+license: "Apache-2.0"
+version: "current"
