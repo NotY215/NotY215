@@ -432,3 +432,14 @@ Vayu is the center of that direction. The other projects let me explore differen
 **Independent developer • Editor • Gamer • Programmer • Game developer**
 
 </div>
+
+
+## Project policies
+
+- [Contributing](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security](SECURITY.md)
+- [Support](SUPPORT.md)
+- [Citation](CITATION.cff)
+- [Governance](GOVERNANCE.md)
+- [License](LICENSE)
