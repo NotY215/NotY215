@@ -38,24 +38,28 @@ I like going below the surface. If something is interesting, I want to understan
 ```text
 NotY215
 ├── Vayu
-│   └── Programming language + ecosystem
+│   └── Programming language and native compiler ecosystem
 ├── VCB
-│   └── Native compiler backend
+│   └── Native compiler backend for Vayu
 ├── NotYVOS
-│   └── x86-64 operating system
+│   └── x86-64 operating system and PS3 runtime foundation
 ├── AI & Media
 │   ├── NotY Caption
 │   ├── NotY Upscaler
 │   └── NotY Caption Official
-├── Game Tools
+├── Game & Minecraft
 │   ├── NotY Game Repacker
 │   ├── AutoTotem
 │   └── HeartsPlugin
 ├── DXFS
-│   └── File-format + terminal experiment
-└── Vayu Website
-    └── Project website and documentation
+│   └── C++ file format and terminal experiment
+└── Websites
+    ├── Vayu
+    ├── VCB
+    └── NotY Caption
 ```
+
+---
 
 ---
 
@@ -67,21 +71,40 @@ NotY215
 <img src="https://raw.githubusercontent.com/NotY215/Vayu/0b329e067cb3162b894bf690247eb44e95b0ae5b/assets/logo-banner.svg" alt="Vayu logo" width="393">
 </div>
 
-**Vayu** is my main programming-language project.
+**Vayu** is my main programming language project.
 
-The direction is a Python-inspired language with native compilation, static typing and type inference, low-level control, C/C++ interoperability, tooling, packages, GUI and application development, games, graphics and future AI/ML support.
+Vayu uses Python-inspired syntax with native compilation, static typing, type inference, low-level control, C/C++ interoperability, editor tooling, packages, GUI and application development, games, graphics and AI/ML support.
+
+The current native compiler path is:
+
+```text
+.vyu source
+   ↓
+Vayu frontend
+   ↓
+VCBIR
+   ↓
+VCB
+   ↓
+x86-64 code generation
+   ↓
+PE or ELF executable
+```
 
 **Source:** [NotY215/Vayu](https://github.com/NotY215/Vayu)  
-**Website:** [vayu.gt.tc](https://vayu.gt.tc)
+**Website:** [vayu.gt.tc](https://vayu.gt.tc)  
+**Syntax:** [Vayu Syntax](https://github.com/NotY215/Vayu/blob/master/docs/syntax.md)  
+**Benchmarks:** [Vayu Website](https://vayu.gt.tc/speed)  
+**VS Code:** [Vayu on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Fliczo.vayu)
 
 ### Vayu ecosystem
 
 | Project | Role |
 |---|---|
-| **Vayu** | Language, compiler and runtime |
-| **VCB** | Independent native compiler backend |
-| **Vayu Website** | Website, documentation and roadmap |
-| **VS Code tooling** | Editor and language tooling |
+| **Vayu** | Language, compiler, runtime and tooling |
+| **VCB** | Native compiler backend |
+| **Vayu Website** | Website, documentation, roadmap and benchmarks |
+| **VS Code tooling** | Language support, LSP, formatter and linter |
 
 ---
 
@@ -93,40 +116,62 @@ The direction is a Python-inspired language with native compilation, static typi
 
 **VCB** means **Vayu Compiler Backend**.
 
-It is a separate C++20 backend project focused on taking Vayu toward direct native code generation.
+VCB is a standalone C++20 native backend for Vayu. Vayu lowers supported programs into VCBIR, then VCB handles native code generation and executable output.
 
-Current areas include:
+### Current status
 
-- Textual SSA IR
-- IR parser and printer
-- `vcb dump`
-- x86-64 code generation
-- PE and ELF writers
-- Runtime integration
+**VCB 0.5.3**
 
-VCB is developed independently so the backend can evolve without being tied to the rest of the compiler.
+Phase 27 Parts 1 to 17 are complete. The current backend includes:
 
-**Repository:** [NotY215/VCB](https://github.com/NotY215/VCB)
+- VCBIR parsing and printing
+- SSA-style typed IR
+- x86-64 native code generation
+- PE executable generation
+- ELF executable generation
+- Windows runtime imports
+- Linux syscall based runtime support
+- Linux bump allocation
+- List and map runtime support
+- String and collection printing
+- Demand driven runtime emission
+- PE and ELF inspection
+- Output directory creation
+- PE image padding and diagnostics
+
+The next backend work is the object and external linker path.
+
+**Repository:** [NotY215/VCB](https://github.com/NotY215/VCB)  
+**Website:** [vayu.gt.tc/VCB](https://vayu.gt.tc/VCB)
 
 ---
 
 ## 🖥️ NotYVOS
 
-**NotYVOS** is an x86-64 operating-system project.
+**NotYVOS** is a development-stage x86-64 operating system with a desktop environment, persistent storage, native hardware drivers and an integrated PlayStation 3 runtime foundation.
 
-The project works with:
+The current codebase includes:
 
-- C
-- C++
-- x86-64 Assembly
-- Clang/LLVM
-- CMake
-- Ninja
-- Limine
+- x86-64 kernel and CPU support
+- User processes and syscalls
+- ELF64 program loading
+- Scheduler and context switching
+- VFS and persistent NYFS storage
+- Desktop compositor
+- Explorer, Settings and Bin applications
+- Graphics API and graphics HAL
+- Software and VBE graphics backends
+- TrueType font rendering
+- USB and input integration
+- PS3 runtime foundation
+- RSX compatibility foundation
+- GameRunner foundation
+- Native GPU backend
 
-It also explores a PS3-compatible execution environment as part of the wider systems work.
+Current platform work uses C++20, C17, x86-64 Assembly, Clang/LLVM, LLD, CMake, Ninja and Limine.
 
-**Repository:** [NotY215/NotYVOS](https://github.com/NotY215/NotYVOS)
+**Repository:** [NotY215/NotYVOS](https://github.com/NotY215/NotYVOS)  
+**Web project:** [NotY215/NotYVOS-Web](https://github.com/NotY215/NotYVOS-Web)
 
 ---
 
@@ -134,13 +179,14 @@ It also explores a PS3-compatible execution environment as part of the wider sys
 
 | Project | Focus |
 |---|---|
-| **NotYCaptionGenAi-Light-weight** | Whisper-based caption and transcription workflow with FFmpeg and vocal separation |
-| **NotYUpscalerZAI** | AI-focused video and image upscaling |
-| **NotyCaption-Official** | NotY Caption application and website work |
+| **NotYCaptionGenAi-Light-weight** | Whisper based caption generation, transcription, YouTube and local media processing, vocal separation and subtitle formatting |
+| **NotYUpscalerZAI** | AI based video and image upscaling |
+| **NotyCaption-Official** | NotyCaption Pro with Whisper, Google Colab and Google Drive workflows |
 
 **Caption Generator:** [Repository](https://github.com/NotY215/NotYCaptionGenAi-Light-weight)  
 **Upscaler:** [Repository](https://github.com/NotY215/NotYUpscalerZAI)  
-**Caption Official:** [Repository](https://github.com/NotY215/NotyCaption-Official)
+**NotyCaption Pro:** [Repository](https://github.com/NotY215/NotyCaption-Official)  
+**NotyCaption Website:** [notycaptiongen.free.nf](https://notycaptiongen.free.nf)
 
 ---
 
@@ -148,9 +194,9 @@ It also explores a PS3-compatible execution environment as part of the wider sys
 
 ### 📦 NotYGameRepacker
 
-A Windows game packaging and repacking system built around a custom `.noty` package format.
+A Windows game packaging and repacking project built around a custom `.noty` format.
 
-**Stack:** C++20, Qt6, CMake, Zstandard, AES-256-GCM, BLAKE3, streaming and multithreading.
+The current project uses C++20, Qt6, CMake, Zstandard, AES-256-GCM, BLAKE3, streaming and multithreading.
 
 [Repository](https://github.com/NotY215/NotYGameRepacker)
 
@@ -170,9 +216,23 @@ A Minecraft plugin project.
 
 # 🧪 DXFS
 
-**DXFS** is a C++17 file-format and terminal-editor experiment focused on compact representations of large digit sequences using packed data and generators.
+**DXFS** is a C++17 file format and terminal editor experiment focused on compact representations of large digit sequences using packed data and generators.
 
 [Repository](https://github.com/NotY215/DXFS)
+
+---
+
+# 🌐 Websites
+
+| Project | Website |
+|---|---|
+| **Vayu** | [vayu.gt.tc](https://vayu.gt.tc) |
+| **VCB** | [vayu.gt.tc/VCB](https://vayu.gt.tc/VCB) |
+| **NotyCaption Pro** | [notycaptiongen.free.nf](https://notycaptiongen.free.nf) |
+
+The Vayu website is the main place for current language information, documentation, roadmap and benchmark information.
+
+---
 
 ---
 
@@ -191,23 +251,25 @@ A Minecraft plugin project.
 
 ---
 
-# 🎯 Goals
+# 🎯 Current Goals
 
-### Build Vayu into a complete ecosystem
+### Vayu
 
-Compiler, runtime, standard library, packages, LSP, formatter, linter, debugging, GUI, graphics, game development, AI/ML and native interoperability.
+Finish the language and native compiler ecosystem around VCBIR, VCB, tooling, packages, LSP, formatter, linter, runtime and native interoperability.
 
-### Build VCB independently
+### VCB
 
-Turn VCB into a capable native backend with its own IR, code generation, object writers and runtime path.
+Complete the object emitter and external linker path, then continue the backend roadmap toward more language features and self hosting.
 
-### Learn systems by building them
+### NotYVOS
 
-Compilers, IRs, code generation, linkers, operating systems, runtimes, file formats, networking, graphics and CPU architecture.
+Continue kernel, desktop, storage, hardware, graphics and PS3 runtime development.
 
-### Keep experimenting
+### Keep building
 
-Not every project needs to become huge. Small experiments are part of learning too.
+I learn by making things, breaking them, fixing them and trying again.
+
+---
 
 ---
 
@@ -237,7 +299,7 @@ Not every project needs to become huge. Small experiments are part of learning t
 
  PID   PROJECT              STATE
  001   Vayu                 BUILDING
- 002   VCB                  BUILDING
+ 002   VCB                  PHASE 27 COMPLETE
  003   NotYVOS              RUNNING
  004   NotY Caption         ACTIVE
  005   NotYGameRepacker     ACTIVE
@@ -250,34 +312,43 @@ Not every project needs to become huge. Small experiments are part of learning t
 
 ---
 
+---
+
 # 🧭 Current Direction
 
 ```text
 Vayu
  │
- ├── Language
+ ├── Frontend
  │    ├── Syntax
  │    ├── Types
- │    ├── Runtime
- │    └── Tooling
+ │    └── VcbLower
  │
  ├── VCB
- │    ├── IR
+ │    ├── VCBIR
  │    ├── x86-64
  │    ├── PE
- │    └── ELF
+ │    ├── ELF
+ │    └── Object + linker path
  │
  └── Ecosystem
-      ├── Packages
       ├── LSP
       ├── Formatter
       ├── Linter
+      ├── Packages
       └── Native tooling
 
 NotYVOS
- └── x86-64 OS
-      └── PS3-compatible execution environment
+ │
+ ├── Kernel
+ ├── Desktop
+ ├── Storage
+ ├── Graphics
+ ├── Hardware
+ └── PS3 runtime
 ```
+
+---
 
 ---
 
@@ -346,7 +417,7 @@ Vayu is the center of that direction. The other projects let me explore differen
 
 <div align="center">
 
-[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [Modrinth](https://modrinth.com/user/NotY215) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215) • [YouTube: NotY215](https://www.youtube.com/@NotY215) • [YouTube: Aayush Crossing](https://www.youtube.com/@AayushCrossing)
+[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [VCB](https://vayu.gt.tc/VCB) • [Modrinth](https://modrinth.com/user/NotY215) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215) • [YouTube: NotY215](https://www.youtube.com/@NotY215) • [YouTube: Aayush Crossing](https://www.youtube.com/@AayushCrossing)
 
 <br><br>
 
