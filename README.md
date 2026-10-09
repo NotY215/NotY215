@@ -43,6 +43,8 @@ NotY215
 │   └── Native compiler backend for Vayu
 ├── NotYVOS
 │   └── x86-64 operating system and PS3 runtime foundation
+├── PPSX33
+│   └── Experimental PlayStation 3 static recompiler
 ├── AI & Media
 │   ├── NotY Caption
 │   ├── NotY Upscaler
@@ -175,6 +177,27 @@ Current platform work uses C++20, C17, x86-64 Assembly, Clang/LLVM, LLD, CMake, 
 
 ---
 
+## 🎮 PPSX33
+
+**PPSX33** is an experimental static recompiler for decrypted 64-bit big-endian PowerPC ELF input from PlayStation 3 software. Its Windows output includes a native `game.exe` and `ps3rt.dll`. The project uses C++, C and C#.
+
+### Current status
+
+- ELF64 big-endian loading is implemented.
+- PPU instruction translation is partial, with coverage tracked in the repository documentation.
+- The native MSVC build can produce `game.exe` and `ps3rt.dll`.
+- Runtime execution is still incomplete.
+- SPU execution and RSX graphics rendering are not implemented.
+- Full commercial-game compatibility has not been established.
+
+The project includes a synthetic ELF smoke test. Its results are not a commercial-game compatibility claim. Use only game data and software you own or are legally authorized to process.
+
+**Repository:** [NotY215/PPSX33](https://github.com/NotY215/PPSX33)  
+**Build guide:** [PPSX33 README](https://github.com/NotY215/PPSX33#build-on-windows)  
+**PPU coverage:** [PPU coverage notes](https://github.com/NotY215/PPSX33/blob/main/docs/PPU_COVERAGE.md)
+
+---
+
 # 🤖 AI & Media
 
 | Project | Focus |
@@ -265,6 +288,10 @@ Complete the object emitter and external linker path, then continue the backend 
 
 Continue kernel, desktop, storage, hardware, graphics and PS3 runtime development.
 
+### PPSX33
+
+Expand PPU translation coverage, improve runtime control flow and continue validating the recompiler with synthetic tests. SPU, RSX and broader compatibility remain future work.
+
 ### Keep building
 
 I learn by making things, breaking them, fixing them and trying again.
@@ -301,10 +328,11 @@ I learn by making things, breaking them, fixing them and trying again.
  001   Vayu                 BUILDING
  002   VCB                  PHASE 27 COMPLETE
  003   NotYVOS              RUNNING
- 004   NotY Caption         ACTIVE
- 005   NotYGameRepacker     ACTIVE
- 006   AutoTotem            ACTIVE
- 007   DXFS                 EXPERIMENT
+ 004   PPSX33               IN DEVELOPMENT
+ 005   NotY Caption         ACTIVE
+ 006   NotYGameRepacker     ACTIVE
+ 007   AutoTotem            ACTIVE
+ 008   DXFS                 EXPERIMENT
 
  STATUS  : building
  FOCUS   : languages • compilers • systems • tools
