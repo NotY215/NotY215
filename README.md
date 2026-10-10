@@ -70,7 +70,9 @@ NotY215
 ## 🌪️ Vayu
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NotY215/Vayu/0b329e067cb3162b894bf690247eb44e95b0ae5b/assets/logo-banner.svg" alt="Vayu logo" width="393">
+<a href="https://vayu.gt.tc">
+<img src="https://raw.githubusercontent.com/NotY215/Vayu/master/assets/logo.svg" alt="Vayu logo" width="150">
+</a>
 </div>
 
 **Vayu** is my main programming language project.
@@ -113,7 +115,9 @@ PE or ELF executable
 ## ⚙️ VCB
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NotY215/VCB/e4470820ebe163b01a7a29841e9e66bd881ca688/Assets/VCB_banner.svg" alt="VCB banner" width="760">
+<a href="https://vayu.gt.tc/VCB">
+<img src="https://raw.githubusercontent.com/NotY215/VCB/master/Assets/VCB_banner.svg" alt="VCB banner" width="900">
+</a>
 </div>
 
 **VCB** means **Vayu Compiler Backend**.
@@ -150,6 +154,12 @@ The next backend work is the object and external linker path.
 
 ## 🖥️ NotYVOS
 
+<div align="center">
+<a href="https://github.com/NotY215/NotYVOS">
+<img src="https://raw.githubusercontent.com/NotY215/NotYVOS/main/assets/logo.png" alt="NotYVOS project logo" width="180">
+</a>
+</div>
+
 **NotYVOS** is a development-stage x86-64 operating system with a desktop environment, persistent storage, native hardware drivers and an integrated PlayStation 3 runtime foundation.
 
 The current codebase includes:
@@ -179,6 +189,14 @@ Current platform work uses C++20, C17, x86-64 Assembly, Clang/LLVM, LLD, CMake, 
 
 ## 🎮 PPSX33
 
+<div align="center">
+<a href="https://github.com/NotY215/PPSX33">
+<img src="https://raw.githubusercontent.com/NotY215/PPSX33/main/assets/ppsx33-banner.png" alt="PPSX33 banner" width="100%">
+<br>
+<img src="https://raw.githubusercontent.com/NotY215/PPSX33/main/assets/ppsx33-logo.png" alt="PPSX33 circular logo" width="140">
+</a>
+</div>
+
 **PPSX33** is an experimental static recompiler for decrypted 64-bit big-endian PowerPC ELF input from PlayStation 3 software. Its Windows output includes a native `game.exe` and `ps3rt.dll`. The project uses C++, C and C#.
 
 ### Current status
@@ -206,8 +224,26 @@ The project includes a synthetic ELF smoke test. Its results are not a commercia
 | **NotYUpscalerZAI** | AI based video and image upscaling |
 | **NotyCaption-Official** | NotyCaption Pro with Whisper, Google Colab and Google Drive workflows |
 
+<div align="center">
+<a href="https://github.com/NotY215/NotYCaptionGenAi-Light-weight">
+<img src="https://raw.githubusercontent.com/NotY215/NotYCaptionGenAi-Light-weight/main/assets/banner.png" alt="NotY Caption Generator banner" width="100%">
+</a>
+</div>
+
 **Caption Generator:** [Repository](https://github.com/NotY215/NotYCaptionGenAi-Light-weight)  
+<div align="center">
+<a href="https://github.com/NotY215/NotYUpscalerZAI">
+<img src="https://raw.githubusercontent.com/NotY215/NotYUpscalerZAI/main/assets/banner.png" alt="NotY Upscaler banner" width="100%">
+</a>
+</div>
+
 **Upscaler:** [Repository](https://github.com/NotY215/NotYUpscalerZAI)  
+<div align="center">
+<a href="https://github.com/NotY215/NotyCaption-Official">
+<img src="https://raw.githubusercontent.com/NotY215/NotyCaption-Official/Website/assets/banner.png" alt="NotyCaption Pro banner" width="100%">
+</a>
+</div>
+
 **NotyCaption Pro:** [Repository](https://github.com/NotY215/NotyCaption-Official)  
 **NotyCaption Website:** [notycaptiongen.free.nf](https://notycaptiongen.free.nf)
 
@@ -217,6 +253,12 @@ The project includes a synthetic ELF smoke test. Its results are not a commercia
 
 ### 📦 NotYGameRepacker
 
+<div align="center">
+<a href="https://github.com/NotY215/NotYGameRepacker">
+<img src="https://raw.githubusercontent.com/NotY215/NotYGameRepacker/master/assets/banner.png" alt="NotYGameRepacker banner" width="100%">
+</a>
+</div>
+
 A Windows game packaging and repacking project built around a custom `.noty` format.
 
 The current project uses C++20, Qt6, CMake, Zstandard, AES-256-GCM, BLAKE3, streaming and multithreading.
@@ -225,11 +267,23 @@ The current project uses C++20, Qt6, CMake, Zstandard, AES-256-GCM, BLAKE3, stre
 
 ### 🛡️ AutoTotem
 
+<div align="center">
+<a href="https://github.com/NotY215/AutoTotem">
+<img src="https://raw.githubusercontent.com/NotY215/AutoTotem/master/assets/banner.png" alt="AutoTotem banner" width="100%">
+</a>
+</div>
+
 A Fabric client-side Minecraft mod for automatic Totem of Undying management.
 
 [Repository](https://github.com/NotY215/AutoTotem)
 
 ### ❤️ HeartsPlugin
+
+<div align="center">
+<a href="https://github.com/NotY215/HeartsPlugin">
+<img src="https://raw.githubusercontent.com/NotY215/HeartsPlugin/master/assets/banner.png" alt="HeartsPlugin banner" width="100%">
+</a>
+</div>
 
 A Minecraft plugin project.
 
@@ -238,6 +292,12 @@ A Minecraft plugin project.
 ---
 
 # 🧪 DXFS
+
+<div align="center">
+<a href="https://github.com/NotY215/DXFS">
+<img src="https://raw.githubusercontent.com/NotY215/DXFS/master/assets/banner.png" alt="DXFS banner" width="100%">
+</a>
+</div>
 
 **DXFS** is a C++17 file format and terminal editor experiment focused on compact representations of large digit sequences using packed data and generators.
 
