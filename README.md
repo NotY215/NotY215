@@ -12,7 +12,7 @@
 
 <p>
 <a href="https://github.com/NotY215"><img src="https://img.shields.io/github/followers/NotY215?label=Followers&style=for-the-badge" alt="Followers"></a>
-<a href="https://komarev.com/ghpvc/?username=NotY215"><img src="https://komarev.com/ghpvc/?username=NotY215&style=for-the-badge&color=7c3aed" alt="Profile views"></a>
+<img src="https://komarev.com/ghpvc/?username=NotY215&amp;label=PROFILE+VIEWS&amp;color=7c3aed&amp;style=flat-square" alt="Profile views counter">
 </p>
 
 </div>
@@ -156,7 +156,7 @@ The next backend work is the object and external linker path.
 
 <div align="center">
 <a href="https://github.com/NotY215/NotYVOS">
-<img src="https://raw.githubusercontent.com/NotY215/NotYVOS/main/assets/logo.png" alt="NotYVOS project logo" width="180">
+<strong>NotYVOS</strong>
 </a>
 </div>
 
@@ -179,6 +179,9 @@ The current codebase includes:
 - RSX compatibility foundation
 - GameRunner foundation
 - Native GPU backend
+- Extended desktop interaction work through Phases 11–18, including networking, Wi-Fi and Bluetooth
+
+**Current focus:** Phase 19, NYFS maturity. Windows application compatibility remains outside the current roadmap.
 
 Current platform work uses C++20, C17, x86-64 Assembly, Clang/LLVM, LLD, CMake, Ninja and Limine.
 
@@ -208,7 +211,7 @@ Current platform work uses C++20, C17, x86-64 Assembly, Clang/LLVM, LLD, CMake, 
 - SPU execution and RSX graphics rendering are not implemented.
 - Full commercial-game compatibility has not been established.
 
-The project includes a synthetic ELF smoke test. Its results are not a commercial-game compatibility claim. Use only game data and software you own or are legally authorized to process.
+Current lifting reports include snapshots for God of War III, Uncharted 2 and Demon's Souls. These are static translation counts, not proof of correct runtime behavior or commercial-game compatibility. PPU semantics remain partial, SPU execution is incomplete, and RSX host rendering is not yet implemented. Use only game data and software you own or are legally authorized to process.
 
 **Repository:** [NotY215/PPSX33](https://github.com/NotY215/PPSX33)  
 **Build guide:** [PPSX33 README](https://github.com/NotY215/PPSX33#build-on-windows)  
@@ -220,30 +223,12 @@ The project includes a synthetic ELF smoke test. Its results are not a commercia
 
 | Project | Focus |
 |---|---|
-| **NotYCaptionGenAi-Light-weight** | Whisper based caption generation, transcription, YouTube and local media processing, vocal separation and subtitle formatting |
+| **NotYCaptionGenAi-Light-weight** | v7.1 Whisper-based CLI for transcription and captions, vocal separation, YouTube/local media, translation and subtitle formatting |
 | **NotYUpscalerZAI** | AI based video and image upscaling |
 | **NotyCaption-Official** | NotyCaption Pro with Whisper, Google Colab and Google Drive workflows |
 
-<div align="center">
-<a href="https://github.com/NotY215/NotYCaptionGenAi-Light-weight">
-<img src="https://raw.githubusercontent.com/NotY215/NotYCaptionGenAi-Light-weight/main/assets/banner.png" alt="NotY Caption Generator banner" width="100%">
-</a>
-</div>
-
 **Caption Generator:** [Repository](https://github.com/NotY215/NotYCaptionGenAi-Light-weight)  
-<div align="center">
-<a href="https://github.com/NotY215/NotYUpscalerZAI">
-<img src="https://raw.githubusercontent.com/NotY215/NotYUpscalerZAI/main/assets/banner.png" alt="NotY Upscaler banner" width="100%">
-</a>
-</div>
-
 **Upscaler:** [Repository](https://github.com/NotY215/NotYUpscalerZAI)  
-<div align="center">
-<a href="https://github.com/NotY215/NotyCaption-Official">
-<img src="https://raw.githubusercontent.com/NotY215/NotyCaption-Official/Website/assets/banner.png" alt="NotyCaption Pro banner" width="100%">
-</a>
-</div>
-
 **NotyCaption Pro:** [Repository](https://github.com/NotY215/NotyCaption-Official)  
 **NotyCaption Website:** [notycaptiongen.free.nf](https://notycaptiongen.free.nf)
 
@@ -253,37 +238,19 @@ The project includes a synthetic ELF smoke test. Its results are not a commercia
 
 ### 📦 NotYGameRepacker
 
-<div align="center">
-<a href="https://github.com/NotY215/NotYGameRepacker">
-<img src="https://raw.githubusercontent.com/NotY215/NotYGameRepacker/master/assets/banner.png" alt="NotYGameRepacker banner" width="100%">
-</a>
-</div>
+A Windows-first game packaging and installation project for files the user legitimately owns.
 
-A Windows game packaging and repacking project built around a custom `.noty` format.
-
-The current project uses C++20, Qt6, CMake, Zstandard, AES-256-GCM, BLAKE3, streaming and multithreading.
+The current codebase is an active C/C++ project using C++20, C17, the Windows SDK, native Win32 UI, CMake and MSVC. The core Windows x64 foundation and build architecture are present; the complete package, repack and install pipeline is still in development. Cryptography is not implemented yet, so the project does not claim to provide encryption or authenticated package security.
 
 [Repository](https://github.com/NotY215/NotYGameRepacker)
 
 ### 🛡️ AutoTotem
 
-<div align="center">
-<a href="https://github.com/NotY215/AutoTotem">
-<img src="https://raw.githubusercontent.com/NotY215/AutoTotem/master/assets/banner.png" alt="AutoTotem banner" width="100%">
-</a>
-</div>
-
-A Fabric client-side Minecraft mod for automatic Totem of Undying management.
+A Fabric client-side Minecraft mod for automatic Totem of Undying management. The current README lists Minecraft 1.21.9 through 26.3, with separate builds for the Yarn-based 1.21.x line and Mojang-mapped 26.x versions.
 
 [Repository](https://github.com/NotY215/AutoTotem)
 
 ### ❤️ HeartsPlugin
-
-<div align="center">
-<a href="https://github.com/NotY215/HeartsPlugin">
-<img src="https://raw.githubusercontent.com/NotY215/HeartsPlugin/master/assets/banner.png" alt="HeartsPlugin banner" width="100%">
-</a>
-</div>
 
 A Minecraft plugin project.
 
@@ -292,12 +259,6 @@ A Minecraft plugin project.
 ---
 
 # 🧪 DXFS
-
-<div align="center">
-<a href="https://github.com/NotY215/DXFS">
-<img src="https://raw.githubusercontent.com/NotY215/DXFS/master/assets/banner.png" alt="DXFS banner" width="100%">
-</a>
-</div>
 
 **DXFS** is a C++17 file format and terminal editor experiment focused on compact representations of large digit sequences using packed data and generators.
 
