@@ -12,7 +12,6 @@
 
 <p>
 <a href="https://github.com/NotY215"><img src="https://img.shields.io/github/followers/NotY215?label=Followers&style=for-the-badge" alt="Followers"></a>
-<img src="https://komarev.com/ghpvc/?username=NotY215&amp;label=PROFILE+VIEWS&amp;color=7c3aed&amp;style=flat-square" alt="Profile views counter">
 </p>
 
 </div>
@@ -156,7 +155,7 @@ The next backend work is the object and external linker path.
 
 <div align="center">
 <a href="https://github.com/NotY215/NotYVOS">
-<strong>NotYVOS</strong>
+<img src="https://raw.githubusercontent.com/NotY215/NotYVOS/main/Assets/Neon%20Blue%20NotYVOS%20Tech%20Logo.png" alt="NotYVOS logo" width="220">
 </a>
 </div>
 
@@ -223,9 +222,9 @@ Current lifting reports include snapshots for God of War III, Uncharted 2 and De
 
 | Project | Focus |
 |---|---|
-| **NotYCaptionGenAi-Light-weight** | v7.1 Whisper-based CLI for transcription and captions, vocal separation, YouTube/local media, translation and subtitle formatting |
+| <img src="https://raw.githubusercontent.com/NotY215/NotYCaptionGenAi-Light-weight/main/resources/logo.ico" alt="NotY Caption Generator logo" width="48"> **NotYCaptionGenAi-Light-weight** | v7.1 Whisper-based CLI for transcription and captions, vocal separation, YouTube/local media, translation and subtitle formatting |
 | **NotYUpscalerZAI** | AI based video and image upscaling |
-| **NotyCaption-Official** | NotyCaption Pro with Whisper, Google Colab and Google Drive workflows |
+| <img src="https://raw.githubusercontent.com/NotY215/NotyCaption-Official/refs/heads/Website/Logo.ico" alt="NotyCaption Pro logo" width="48"> **NotyCaption-Official** | NotyCaption Pro with Whisper, Google Colab and Google Drive workflows |
 
 **Caption Generator:** [Repository](https://github.com/NotY215/NotYCaptionGenAi-Light-weight)  
 **Upscaler:** [Repository](https://github.com/NotY215/NotYUpscalerZAI)  
@@ -238,6 +237,12 @@ Current lifting reports include snapshots for God of War III, Uncharted 2 and De
 
 ### 📦 NotYGameRepacker
 
+<div align="center">
+<a href="https://github.com/NotY215/NotYGameRepacker">
+<img src="https://raw.githubusercontent.com/NotY215/NotYGameRepacker/master/resources/logo.png" alt="NotYGameRepacker logo" width="140">
+</a>
+</div>
+
 A Windows-first game packaging and installation project for files the user legitimately owns.
 
 The current codebase is an active C/C++ project using C++20, C17, the Windows SDK, native Win32 UI, CMake and MSVC. The core Windows x64 foundation and build architecture are present; the complete package, repack and install pipeline is still in development. Cryptography is not implemented yet, so the project does not claim to provide encryption or authenticated package security.
@@ -245,6 +250,12 @@ The current codebase is an active C/C++ project using C++20, C17, the Windows SD
 [Repository](https://github.com/NotY215/NotYGameRepacker)
 
 ### 🛡️ AutoTotem
+
+<div align="center">
+<a href="https://github.com/NotY215/AutoTotem">
+<img src="https://raw.githubusercontent.com/NotY215/AutoTotem/master/26.3/src/main/resources/assets/autototem/icon.png" alt="AutoTotem logo" width="120">
+</a>
+</div>
 
 A Fabric client-side Minecraft mod for automatic Totem of Undying management. The current README lists Minecraft 1.21.9 through 26.3, with separate builds for the Yarn-based 1.21.x line and Mojang-mapped 26.x versions.
 
