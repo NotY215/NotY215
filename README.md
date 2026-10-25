@@ -222,7 +222,7 @@ Current lifting reports include snapshots for God of War III, Uncharted 2 and De
 
 | Project | Focus |
 |---|---|
-| <img src="https://raw.githubusercontent.com/NotY215/NotYCaptionGenAi-Light-weight/main/resources/logo.ico" alt="NotY Caption Generator logo" width="48"> **NotYCaptionGenAi-Light-weight** | v7.1 Whisper-based CLI for transcription and captions, vocal separation, YouTube/local media, translation and subtitle formatting |
+| <img src="https://raw.githubusercontent.com/NotY215/NotyCaption-Official/refs/heads/Website/Logo.ico" alt="NotY Caption Generator logo" width="48"> **NotYCaptionGenAi-Light-weight** | v7.1 Whisper-based CLI for transcription and captions, vocal separation, YouTube/local media, translation and subtitle formatting |
 | **NotYUpscalerZAI** | AI based video and image upscaling |
 | <img src="https://raw.githubusercontent.com/NotY215/NotyCaption-Official/refs/heads/Website/Logo.ico" alt="NotyCaption Pro logo" width="48"> **NotyCaption-Official** | NotyCaption Pro with Whisper, Google Colab and Google Drive workflows |
 
