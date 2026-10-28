@@ -362,7 +362,7 @@ I learn by making things, breaking them, fixing them and trying again.
 
  PID   PROJECT              STATE
  001   Vayu                 BUILDING
- 002   VCB                  PHASE 27 COMPLETE
+ 002   VCB                  PHASE 31.6 ACTIVE
  003   NotYVOS              RUNNING
  004   PPSX33               IN DEVELOPMENT
  005   AIFIAR               ACTIVE
