@@ -12,6 +12,7 @@
 
 <p>
 <a href="https://github.com/NotY215"><img src="https://img.shields.io/github/followers/NotY215?label=Followers&style=for-the-badge" alt="Followers"></a>
+<a href="https://github.com/NotY215"><img src="https://komarev.com/ghpvc/?username=NotY215&style=for-the-badge&color=7c3aed" alt="Profile views"></a>
 </p>
 
 </div>
@@ -20,7 +21,7 @@
 
 ## $ whoami
 
-I am **Shreyas Mishra**, also known as **NotY215**.
+I am **Shreyas Mishra**. My online name is **NotY215**, and I also go by **Fliczo** online.
 
 I am an independent developer working on programming languages, compilers, systems, AI, media, games and developer tools.
 
@@ -41,13 +42,14 @@ NotY215
 ├── VCB
 │   └── Native compiler backend for Vayu
 ├── NotYVOS
-│   └── x86-64 operating system and PS3 runtime foundation
+│   └── Linux/Buildroot appliance with a PS3-style XMB interface
 ├── PPSX33
 │   └── Experimental PlayStation 3 static recompiler
 ├── AI & Media
-│   ├── NotY Caption
+│   ├── AIFIAR
+│   ├── NotY Caption Generator
 │   ├── NotY Upscaler
-│   └── NotY Caption Official
+│   └── NotYCaption Pro
 ├── Game & Minecraft
 │   ├── NotY Game Repacker
 │   ├── AutoTotem
@@ -127,7 +129,7 @@ VCB is a standalone C++20 native backend for Vayu. Vayu lowers supported program
 
 **VCB 0.5.3**
 
-Phase 27 Parts 1 to 17 are complete. The current backend includes:
+Phases 27–31.5 are complete. Phase 31.6a and 31.6b are the current drop, with 31.6c next. The backend includes:
 
 - VCBIR parsing and printing
 - SSA-style typed IR
@@ -144,7 +146,7 @@ Phase 27 Parts 1 to 17 are complete. The current backend includes:
 - Output directory creation
 - PE image padding and diagnostics
 
-The next backend work is the object and external linker path.
+The COFF and ELF object emitters, `vcb emit-obj`, `vcb link`, and the `vayuc --native` external-linker path are already implemented. Current work is focused on collection/string methods and native compiler correctness.
 
 **Repository:** [NotY215/VCB](https://github.com/NotY215/VCB)  
 **Website:** [vayu.gt.tc/VCB](https://vayu.gt.tc/VCB)
@@ -159,30 +161,18 @@ The next backend work is the object and external linker path.
 </a>
 </div>
 
-**NotYVOS** is a development-stage x86-64 operating system with a desktop environment, persistent storage, native hardware drivers and an integrated PlayStation 3 runtime foundation.
+**NotYVOS** is currently a Linux-based appliance that boots directly into a PlayStation 3-style XMB interface. The current rewrite uses a Linux kernel, Buildroot, a kiosk Wayland compositor, and a C++/SDL2 application named `notyvos-xmb`. It is a separate project from PPSX33, the experimental PS3 static recompiler.
 
-The current codebase includes:
+The current implementation includes:
 
-- x86-64 kernel and CPU support
-- User processes and syscalls
-- ELF64 program loading
-- Scheduler and context switching
-- VFS and persistent NYFS storage
-- Desktop compositor
-- Explorer, Settings and Bin applications
-- Graphics API and graphics HAL
-- Software and VBE graphics backends
-- TrueType font rendering
-- USB and input integration
-- PS3 runtime foundation
-- RSX compatibility foundation
-- GameRunner foundation
-- Native GPU backend
-- Extended desktop interaction work through Phases 11–18, including networking, Wi-Fi and Bluetooth
+- A Buildroot-based Linux image and kernel configuration
+- A kiosk Wayland session launched through `cage`
+- XMB sections for Users, Settings, Photo, Music, Video, Game, Network, PlayStation Network and Friends
+- Theme, display, system information, restart and shutdown settings
+- Keyboard and mouse navigation, including scrolling and section switching
+- File listings for Photo, Music and Video directories
 
-**Current focus:** Phase 19, NYFS maturity. Windows application compatibility remains outside the current roadmap.
-
-Current platform work uses C++20, C17, x86-64 Assembly, Clang/LLVM, LLD, CMake, Ninja and Limine.
+**Current status:** Early rewrite. Media playback, games, networking, sound, bootable disk/ISO packaging and PS3 game execution are not implemented. Network, PlayStation Network and Friends entries are placeholders. See the repository's current build and architecture docs for verified status.
 
 **Repository:** [NotY215/NotYVOS](https://github.com/NotY215/NotYVOS)  
 **Web project:** [NotY215/NotYVOS-Web](https://github.com/NotY215/NotYVOS-Web)
@@ -222,14 +212,28 @@ Current lifting reports include snapshots for God of War III, Uncharted 2 and De
 
 | Project | Focus |
 |---|---|
-| <img src="https://raw.githubusercontent.com/NotY215/NotyCaption-Official/refs/heads/Website/Logo.ico" alt="NotY Caption Generator logo" width="48"> **NotYCaptionGenAi-Light-weight** | v7.1 Whisper-based CLI for transcription and captions, vocal separation, YouTube/local media, translation and subtitle formatting |
-| **NotYUpscalerZAI** | AI based video and image upscaling |
+| <img src="https://raw.githubusercontent.com/NotY215/NotYCaptionGenAi-Light-weight/main/resources/logo.ico" alt="NotY Caption Generator logo" width="48"> **NotYCaptionGenAi-Light-weight** | v7.1 Whisper-based CLI for transcription and captions, vocal separation, YouTube/local media, translation and subtitle formatting |
+| **NotYUpscalerZAI** | AI-based video and image upscaling |
 | <img src="https://raw.githubusercontent.com/NotY215/NotyCaption-Official/refs/heads/Website/Logo.ico" alt="NotyCaption Pro logo" width="48"> **NotyCaption-Official** | NotyCaption Pro with Whisper, Google Colab and Google Drive workflows |
 
 **Caption Generator:** [Repository](https://github.com/NotY215/NotYCaptionGenAi-Light-weight)  
 **Upscaler:** [Repository](https://github.com/NotY215/NotYUpscalerZAI)  
 **NotyCaption Pro:** [Repository](https://github.com/NotY215/NotyCaption-Official)  
 **NotyCaption Website:** [notycaptiongen.free.nf](https://notycaptiongen.free.nf)
+
+### 🧠 AIFIAR
+
+<div align="center">
+<a href="https://github.com/NotY215/AIFIAR">
+<img src="https://raw.githubusercontent.com/NotY215/AIFIAR/main/assets/aifiar-mark.svg" alt="AIFIAR logo" width="112">
+</a>
+</div>
+
+**AIFIAR** (Artificial Intelligence Framework for Interpretation and Reasoning) is an early-stage, provider-aware framework for structured AI-assisted software work. It includes TypeScript workflow modules, Python safety tooling, provider adapters, repository memory, task-scoped context, digest-bound patch proposals, approval boundaries and verification workflows.
+
+Current adapters cover OpenAI, xAI, Anthropic, Gemini, Qwen/Qwen Code and explicitly configured OpenAI-compatible local or self-hosted models. AIFIAR is not yet a complete autonomous coding agent. Authenticated approval UI, native Windows race-resistant file operations, production-grade host isolation and other production-readiness gates remain incomplete.
+
+**Repository:** [NotY215/AIFIAR](https://github.com/NotY215/AIFIAR)
 
 ---
 
@@ -314,11 +318,11 @@ Finish the language and native compiler ecosystem around VCBIR, VCB, tooling, pa
 
 ### VCB
 
-Complete the object emitter and external linker path, then continue the backend roadmap toward more language features and self hosting.
+Continue Phase 31 collection and string methods, fix native compiler correctness issues, and advance the remaining Vayu/VCB language roadmap. COFF/ELF object emission and external-linker integration are already present.
 
 ### NotYVOS
 
-Continue kernel, desktop, storage, hardware, graphics and PS3 runtime development.
+Continue the Linux/Buildroot appliance rewrite and PS3-style XMB interface. Keep planned features clearly separate from working features.
 
 ### PPSX33
 
@@ -361,13 +365,14 @@ I learn by making things, breaking them, fixing them and trying again.
  002   VCB                  PHASE 27 COMPLETE
  003   NotYVOS              RUNNING
  004   PPSX33               IN DEVELOPMENT
- 005   NotY Caption         ACTIVE
- 006   NotYGameRepacker     ACTIVE
- 007   AutoTotem            ACTIVE
- 008   DXFS                 EXPERIMENT
+ 005   AIFIAR               ACTIVE
+ 006   NotY Caption         ACTIVE
+ 007   NotYGameRepacker     ACTIVE
+ 008   AutoTotem            ACTIVE
+ 009   DXFS                 EXPERIMENT
 
  STATUS  : building
- FOCUS   : languages • compilers • systems • tools
+ FOCUS   : languages • compilers • AI workflows • systems • tools
 ```
 
 ---
@@ -400,12 +405,10 @@ Vayu
 
 NotYVOS
  │
- ├── Kernel
- ├── Desktop
- ├── Storage
- ├── Graphics
- ├── Hardware
- └── PS3 runtime
+ ├── Linux / Buildroot
+ ├── Wayland kiosk session
+ ├── SDL2 XMB interface
+ └── Future media and system features
 ```
 
 ---
