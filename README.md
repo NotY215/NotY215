@@ -35,7 +35,7 @@ I like going below the surface. If something is interesting, I want to understan
 
 ### What I work on
 
-All repositories below are ordered by their current GitHub star counts, highest first. Star badges update automatically; repositories with equal counts are grouped by their current totals.
+All public repositories below are ordered by their current GitHub star counts, highest first. Private repositories are excluded. Star badges update automatically; repositories with equal counts are grouped by their current totals.
 
 | Rank | Repository | Stars | Focus |
 |---:|---|---:|---|
@@ -53,10 +53,9 @@ All repositories below are ordered by their current GitHub star counts, highest 
 | 12 | [VCB](https://github.com/NotY215/VCB) | ![Stars](https://img.shields.io/github/stars/NotY215/VCB?style=flat-square) | Native compiler backend for Vayu |
 | 13 | [Vayu-Website](https://github.com/NotY215/Vayu-Website) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu-Website?style=flat-square) | Vayu documentation and project website |
 | 14 | [NotYVOS-Web](https://github.com/NotY215/NotYVOS-Web) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYVOS-Web?style=flat-square) | NotYVOS website |
-| 15 | [Web-host](https://github.com/NotY215/Web-host) | ![Stars](https://img.shields.io/github/stars/NotY215/Web-host?style=flat-square) | Website hosting/backend project |
-| 16 | [NotY215 profile](https://github.com/NotY215/NotY215) | ![Stars](https://img.shields.io/github/stars/NotY215/NotY215?style=flat-square) | Profile README and shared profile assets |
+| 15 | [NotY215 profile](https://github.com/NotY215/NotY215) | ![Stars](https://img.shields.io/github/stars/NotY215/NotY215?style=flat-square) | Profile README and shared profile assets |
 
-`Vayu` and `VCB` are separate repositories in the same compiler ecosystem. Website and web-hosting repositories are included in the ranking too.
+`Vayu` and `VCB` are separate repositories in the same compiler ecosystem. Public website repositories are included in the ranking too.
 
 ---
 
