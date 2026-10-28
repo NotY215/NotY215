@@ -5,7 +5,8 @@ type: software
 authors:
   - given-names: Shreyas
     family-names: Mishra
-    affiliation: NotY215
+    alias: "NotY215"
+    affiliation: "Online AKA Fliczo"
 repository-code: "https://github.com/NotY215/NotY215"
 url: "https://github.com/NotY215"
 license: "Apache-2.0"
