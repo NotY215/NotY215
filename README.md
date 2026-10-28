@@ -35,32 +35,28 @@ I like going below the surface. If something is interesting, I want to understan
 
 ### What I work on
 
-```text
-NotY215
-├── Vayu
-│   └── Programming language and native compiler ecosystem
-├── VCB
-│   └── Native compiler backend for Vayu
-├── NotYVOS
-│   └── Linux/Buildroot appliance with a PS3-style XMB interface
-├── PPSX33
-│   └── Experimental PlayStation 3 static recompiler
-├── AI & Media
-│   ├── AIFIAR
-│   ├── NotY Caption Generator
-│   ├── NotY Upscaler
-│   └── NotYCaption Pro
-├── Game & Minecraft
-│   ├── NotY Game Repacker
-│   ├── AutoTotem
-│   └── HeartsPlugin
-├── DXFS
-│   └── C++ file format and terminal experiment
-└── Websites
-    ├── Vayu
-    ├── VCB
-    └── NotY Caption
-```
+All repositories below are ordered by their current GitHub star counts, highest first. Star badges update automatically; repositories with equal counts are grouped by their current totals.
+
+| Rank | Repository | Stars | Focus |
+|---:|---|---:|---|
+| 1 | [PPSX33](https://github.com/NotY215/PPSX33) | ![Stars](https://img.shields.io/github/stars/NotY215/PPSX33?style=flat-square) | Experimental PS3 static recompiler |
+| 2 | [Vayu](https://github.com/NotY215/Vayu) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu?style=flat-square) | Programming language and native compiler |
+| 3 | [AutoTotem](https://github.com/NotY215/AutoTotem) | ![Stars](https://img.shields.io/github/stars/NotY215/AutoTotem?style=flat-square) | Minecraft client-side utility mod |
+| 4 | [NotYVOS](https://github.com/NotY215/NotYVOS) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYVOS?style=flat-square) | Linux-based PS3-style XMB appliance |
+| 5 | [AIFIAR](https://github.com/NotY215/AIFIAR) | ![Stars](https://img.shields.io/github/stars/NotY215/AIFIAR?style=flat-square) | AI-assisted software engineering framework |
+| 6 | [DXFS](https://github.com/NotY215/DXFS) | ![Stars](https://img.shields.io/github/stars/NotY215/DXFS?style=flat-square) | Compact digit storage and file-format experiment |
+| 7 | [HeartsPlugin](https://github.com/NotY215/HeartsPlugin) | ![Stars](https://img.shields.io/github/stars/NotY215/HeartsPlugin?style=flat-square) | Minecraft plugin |
+| 8 | [NotYCaptionGenAi-Light-weight](https://github.com/NotY215/NotYCaptionGenAi-Light-weight) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYCaptionGenAi-Light-weight?style=flat-square) | Whisper-based caption and transcription CLI |
+| 9 | [NotYGameRepacker](https://github.com/NotY215/NotYGameRepacker) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYGameRepacker?style=flat-square) | Windows game packaging tool |
+| 10 | [NotYUpscalerZAI](https://github.com/NotY215/NotYUpscalerZAI) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYUpscalerZAI?style=flat-square) | AI image and video upscaling |
+| 11 | [NotyCaption-Official](https://github.com/NotY215/NotyCaption-Official) | ![Stars](https://img.shields.io/github/stars/NotY215/NotyCaption-Official?style=flat-square) | NotyCaption Pro |
+| 12 | [VCB](https://github.com/NotY215/VCB) | ![Stars](https://img.shields.io/github/stars/NotY215/VCB?style=flat-square) | Native compiler backend for Vayu |
+| 13 | [Vayu-Website](https://github.com/NotY215/Vayu-Website) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu-Website?style=flat-square) | Vayu documentation and project website |
+| 14 | [NotYVOS-Web](https://github.com/NotY215/NotYVOS-Web) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYVOS-Web?style=flat-square) | NotYVOS website |
+| 15 | [Web-host](https://github.com/NotY215/Web-host) | ![Stars](https://img.shields.io/github/stars/NotY215/Web-host?style=flat-square) | Website hosting/backend project |
+| 16 | [NotY215 profile](https://github.com/NotY215/NotY215) | ![Stars](https://img.shields.io/github/stars/NotY215/NotY215?style=flat-square) | Profile README and shared profile assets |
+
+`Vayu` and `VCB` are separate repositories in the same compiler ecosystem. Website and web-hosting repositories are included in the ranking too.
 
 ---
 
