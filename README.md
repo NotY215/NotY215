@@ -35,28 +35,24 @@ I like going below the surface. If something is interesting, I want to understan
 
 ### What I work on
 
-All public repositories below are ordered by their current GitHub star counts, highest first. Private repositories are excluded. Star badges update automatically; repositories with equal counts are grouped by their current totals.
+All public repositories below are ordered by their current GitHub star counts, highest first. Private or unavailable repositories are excluded. Star badges update automatically.
 
 | Rank | Repository | Stars | Focus |
 |---:|---|---:|---|
 | 1 | [PPSX33](https://github.com/NotY215/PPSX33) | ![Stars](https://img.shields.io/github/stars/NotY215/PPSX33?style=flat-square) | Experimental PS3 static recompiler |
 | 2 | [Vayu](https://github.com/NotY215/Vayu) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu?style=flat-square) | Programming language and native compiler |
 | 3 | [AutoTotem](https://github.com/NotY215/AutoTotem) | ![Stars](https://img.shields.io/github/stars/NotY215/AutoTotem?style=flat-square) | Minecraft client-side utility mod |
-| 4 | [NotYVOS](https://github.com/NotY215/NotYVOS) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYVOS?style=flat-square) | Linux-based PS3-style XMB appliance |
-| 5 | [AIFIAR](https://github.com/NotY215/AIFIAR) | ![Stars](https://img.shields.io/github/stars/NotY215/AIFIAR?style=flat-square) | AI-assisted software engineering framework |
-| 6 | [DXFS](https://github.com/NotY215/DXFS) | ![Stars](https://img.shields.io/github/stars/NotY215/DXFS?style=flat-square) | Compact digit storage and file-format experiment |
-| 7 | [HeartsPlugin](https://github.com/NotY215/HeartsPlugin) | ![Stars](https://img.shields.io/github/stars/NotY215/HeartsPlugin?style=flat-square) | Minecraft plugin |
-| 8 | [NotYCaptionGenAi-Light-weight](https://github.com/NotY215/NotYCaptionGenAi-Light-weight) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYCaptionGenAi-Light-weight?style=flat-square) | Whisper-based caption and transcription CLI |
-| 9 | [NotYGameRepacker](https://github.com/NotY215/NotYGameRepacker) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYGameRepacker?style=flat-square) | Windows game packaging tool |
-| 10 | [NotYUpscalerZAI](https://github.com/NotY215/NotYUpscalerZAI) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYUpscalerZAI?style=flat-square) | AI image and video upscaling |
-| 11 | [NotyCaption-Official](https://github.com/NotY215/NotyCaption-Official) | ![Stars](https://img.shields.io/github/stars/NotY215/NotyCaption-Official?style=flat-square) | NotyCaption Pro |
-| 12 | [VCB](https://github.com/NotY215/VCB) | ![Stars](https://img.shields.io/github/stars/NotY215/VCB?style=flat-square) | Native compiler backend for Vayu |
-| 13 | [Vayu-Website](https://github.com/NotY215/Vayu-Website) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu-Website?style=flat-square) | Vayu documentation and project website |
-| 14 | [NotYVOS-Web](https://github.com/NotY215/NotYVOS-Web) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYVOS-Web?style=flat-square) | NotYVOS website |
-| 15 | [NotY215 profile](https://github.com/NotY215/NotY215) | ![Stars](https://img.shields.io/github/stars/NotY215/NotY215?style=flat-square) | Profile README and shared profile assets |
+| 4 | [AIFIAR](https://github.com/NotY215/AIFIAR) | ![Stars](https://img.shields.io/github/stars/NotY215/AIFIAR?style=flat-square) | AI-assisted software engineering framework |
+| 5 | [DXFS](https://github.com/NotY215/DXFS) | ![Stars](https://img.shields.io/github/stars/NotY215/DXFS?style=flat-square) | Compact digit storage and file-format experiment |
+| 6 | [HeartsPlugin](https://github.com/NotY215/HeartsPlugin) | ![Stars](https://img.shields.io/github/stars/NotY215/HeartsPlugin?style=flat-square) | Minecraft plugin |
+| 7 | [NotYCaptionGenAi-Light-weight](https://github.com/NotY215/NotYCaptionGenAi-Light-weight) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYCaptionGenAi-Light-weight?style=flat-square) | Whisper-based caption and transcription CLI |
+| 8 | [NotYGameRepacker](https://github.com/NotY215/NotYGameRepacker) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYGameRepacker?style=flat-square) | Windows game packaging tool |
+| 9 | [NotYUpscalerZAI](https://github.com/NotY215/NotYUpscalerZAI) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYUpscalerZAI?style=flat-square) | AI image and video upscaling |
+| 10 | [NotyCaption-Official](https://github.com/NotY215/NotyCaption-Official) | ![Stars](https://img.shields.io/github/stars/NotY215/NotyCaption-Official?style=flat-square) | NotyCaption Pro |
+| 11 | [Vayu-Website](https://github.com/NotY215/Vayu-Website) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu-Website?style=flat-square) | Vayu documentation and project website |
+| 12 | [NotY215 profile](https://github.com/NotY215/NotY215) | ![Stars](https://img.shields.io/github/stars/NotY215/NotY215?style=flat-square) | Profile README and shared profile assets |
 
-`Vayu` and `VCB` are separate repositories in the same compiler ecosystem. Public website repositories are included in the ranking too.
-
+`Vayu` and its backend ecosystem are documented separately below. Public website repositories are included in the ranking too.
 ---
 
 ---
@@ -147,30 +143,6 @@ The COFF and ELF object emitters, `vcb emit-obj`, `vcb link`, and the `vayuc --n
 **Website:** [vayu.gt.tc/VCB](https://vayu.gt.tc/VCB)
 
 ---
-
-## 🖥️ NotYVOS
-
-<div align="center">
-<a href="https://github.com/NotY215/NotYVOS">
-<img src="https://raw.githubusercontent.com/NotY215/NotYVOS/main/Assets/Neon%20Blue%20NotYVOS%20Tech%20Logo.png" alt="NotYVOS logo" width="220">
-</a>
-</div>
-
-**NotYVOS** is currently a Linux-based appliance that boots directly into a PlayStation 3-style XMB interface. The current rewrite uses a Linux kernel, Buildroot, a kiosk Wayland compositor, and a C++/SDL2 application named `notyvos-xmb`. It is a separate project from PPSX33, the experimental PS3 static recompiler.
-
-The current implementation includes:
-
-- A Buildroot-based Linux image and kernel configuration
-- A kiosk Wayland session launched through `cage`
-- XMB sections for Users, Settings, Photo, Music, Video, Game, Network, PlayStation Network and Friends
-- Theme, display, system information, restart and shutdown settings
-- Keyboard and mouse navigation, including scrolling and section switching
-- File listings for Photo, Music and Video directories
-
-**Current status:** Early rewrite. Media playback, games, networking, sound, bootable disk/ISO packaging and PS3 game execution are not implemented. Network, PlayStation Network and Friends entries are placeholders. See the repository's current build and architecture docs for verified status.
-
-**Repository:** [NotY215/NotYVOS](https://github.com/NotY215/NotYVOS)  
-**Web project:** [NotY215/NotYVOS-Web](https://github.com/NotY215/NotYVOS-Web)
 
 ---
 
@@ -315,10 +287,6 @@ Finish the language and native compiler ecosystem around VCBIR, VCB, tooling, pa
 
 Continue Phase 31 collection and string methods, fix native compiler correctness issues, and advance the remaining Vayu/VCB language roadmap. COFF/ELF object emission and external-linker integration are already present.
 
-### NotYVOS
-
-Continue the Linux/Buildroot appliance rewrite and PS3-style XMB interface. Keep planned features clearly separate from working features.
-
 ### PPSX33
 
 Expand PPU translation coverage, improve runtime control flow and continue validating the recompiler with synthetic tests. SPU, RSX and broader compatibility remain future work.
@@ -358,7 +326,6 @@ I learn by making things, breaking them, fixing them and trying again.
  PID   PROJECT              STATE
  001   Vayu                 BUILDING
  002   VCB                  PHASE 31.6 ACTIVE
- 003   NotYVOS              RUNNING
  004   PPSX33               IN DEVELOPMENT
  005   AIFIAR               ACTIVE
  006   NotY Caption         ACTIVE
@@ -398,7 +365,6 @@ Vayu
       ├── Packages
       └── Native tooling
 
-NotYVOS
  │
  ├── Linux / Buildroot
  ├── Wayland kiosk session
@@ -490,7 +456,6 @@ Vayu is the center of that direction. The other projects let me explore differen
 **Independent developer • Editor • Gamer • Programmer • Game developer**
 
 </div>
-
 
 ## Project policies
 
