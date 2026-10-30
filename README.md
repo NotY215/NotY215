@@ -8,7 +8,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&text=NotY215&fontSize=38&fontColor=ffffff&fontAlignY=35&animation=twinkling&color=0:7c3aed,50:06b6d4,100:22c55e" width="100%" alt="Animated NotY215 header">
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=800&lines=Programming+Languages+%7C+Compilers+%7C+Systems;AI+Tools+%7C+Game+Tools+%7C+Creative+Software;Building+Vayu+%2B+VCB+%2B+NotY+projects;Learning+by+building+the+whole+thing" alt="NotY215 animated introduction">
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=800&lines=Programming+Languages+%7C+Compilers+%7C+Systems;AI+Tools+%7C+Game+Tools+%7C+Creative+Software;Building+Vayu+%2B+PPSX33+%2B+NotY+projects;Learning+by+building+the+whole+thing" alt="NotY215 animated introduction">
 
 <p>
 <a href="https://github.com/NotY215"><img src="https://img.shields.io/github/followers/NotY215?label=Followers&style=for-the-badge" alt="Followers"></a>
@@ -266,7 +266,7 @@ The Vayu website is the main place for current language information, documentati
 
 ### Vayu
 
-Finish the language and native compiler ecosystem around VCBIR, VCB, tooling, packages, LSP, formatter, linter, runtime and native interoperability.
+Expand the verified VIB/VIR language subset, complete the remaining baseline repairs, and progress through verifier hardening, collections, modules and later native code generation milestones.
 
 ### PPSX33
 
@@ -421,7 +421,7 @@ Vayu is the center of that direction. The other projects let me explore differen
 
 <div align="center">
 
-[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [VCB](https://vayu.gt.tc/VCB) • [Modrinth](https://modrinth.com/user/NotY215) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215) • [YouTube: NotY215](https://www.youtube.com/@NotY215) • [YouTube: Aayush Crossing](https://www.youtube.com/@AayushCrossing)
+[GitHub](https://github.com/NotY215) • [Vayu](https://vayu.gt.tc) • [Modrinth](https://modrinth.com/user/NotY215) • [Instagram](https://www.instagram.com/mishra_shreyas215/) • [Telegram](https://t.me/Noty_215) • [YouTube: NotY215](https://www.youtube.com/@NotY215) • [YouTube: Aayush Crossing](https://www.youtube.com/@AayushCrossing)
 
 <br><br>
 
