@@ -35,24 +35,25 @@ I like going below the surface. If something is interesting, I want to understan
 
 ### What I work on
 
-All public repositories below are ordered by their current GitHub star counts, highest first. Private or unavailable repositories are excluded. Star badges update automatically.
+All public repositories below are ranked by their current GitHub star counts. Star badges update automatically. Repositories with equal counts are grouped alphabetically.
 
 | Rank | Repository | Stars | Focus |
 |---:|---|---:|---|
-| 1 | [PPSX33](https://github.com/NotY215/PPSX33) | ![Stars](https://img.shields.io/github/stars/NotY215/PPSX33?style=flat-square) | Experimental PS3 static recompiler |
-| 2 | [Vayu](https://github.com/NotY215/Vayu) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu?style=flat-square) | Programming language and native compiler |
-| 3 | [AutoTotem](https://github.com/NotY215/AutoTotem) | ![Stars](https://img.shields.io/github/stars/NotY215/AutoTotem?style=flat-square) | Minecraft client-side utility mod |
-| 4 | [AIFIAR](https://github.com/NotY215/AIFIAR) | ![Stars](https://img.shields.io/github/stars/NotY215/AIFIAR?style=flat-square) | AI-assisted software engineering framework |
-| 5 | [DXFS](https://github.com/NotY215/DXFS) | ![Stars](https://img.shields.io/github/stars/NotY215/DXFS?style=flat-square) | Compact digit storage and file-format experiment |
-| 6 | [HeartsPlugin](https://github.com/NotY215/HeartsPlugin) | ![Stars](https://img.shields.io/github/stars/NotY215/HeartsPlugin?style=flat-square) | Minecraft plugin |
-| 7 | [NotYCaptionGenAi-Light-weight](https://github.com/NotY215/NotYCaptionGenAi-Light-weight) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYCaptionGenAi-Light-weight?style=flat-square) | Whisper-based caption and transcription CLI |
-| 8 | [NotYGameRepacker](https://github.com/NotY215/NotYGameRepacker) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYGameRepacker?style=flat-square) | Windows game packaging tool |
-| 9 | [NotYUpscalerZAI](https://github.com/NotY215/NotYUpscalerZAI) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYUpscalerZAI?style=flat-square) | AI image and video upscaling |
-| 10 | [NotyCaption-Official](https://github.com/NotY215/NotyCaption-Official) | ![Stars](https://img.shields.io/github/stars/NotY215/NotyCaption-Official?style=flat-square) | NotyCaption Pro |
-| 11 | [Vayu-Website](https://github.com/NotY215/Vayu-Website) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu-Website?style=flat-square) | Vayu documentation and project website |
-| 12 | [NotY215 profile](https://github.com/NotY215/NotY215) | ![Stars](https://img.shields.io/github/stars/NotY215/NotY215?style=flat-square) | Profile README and shared profile assets |
+| 1 | [PPSX33](https://github.com/NotY215/PPSX33) | ![Stars](https://img.shields.io/github/stars/NotY215/PPSX33?style=flat-square) | PlayStation 3 full-recompilation research and runtime |
+| 2 | [Vayu](https://github.com/NotY215/Vayu) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu?style=flat-square) | Programming language and integrated compiler/runtime |
+| 3 | [AutoTotem](https://github.com/NotY215/AutoTotem) | ![Stars](https://img.shields.io/github/stars/NotY215/AutoTotem?style=flat-square) | Fabric client-side Minecraft utility mod |
+| 4 | [AIFIAR](https://github.com/NotY215/AIFIAR) | ![Stars](https://img.shields.io/github/stars/NotY215/AIFIAR?style=flat-square) | Provider-aware AI engineering framework |
+| 5 | [DXFS](https://github.com/NotY215/DXFS) | ![Stars](https://img.shields.io/github/stars/NotY215/DXFS?style=flat-square) | Digit-container format and terminal editor |
+| 6 | [HeartsPlugin](https://github.com/NotY215/HeartsPlugin) | ![Stars](https://img.shields.io/github/stars/NotY215/HeartsPlugin?style=flat-square) | Minecraft health display and Vault balance plugin |
+| 7 | [NotYCaptionGenAi-Light-weight](https://github.com/NotY215/NotYCaptionGenAi-Light-weight) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYCaptionGenAi-Light-weight?style=flat-square) | Whisper and Spleeter caption-generation CLI |
+| 8 | [NotYGameRepacker](https://github.com/NotY215/NotYGameRepacker) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYGameRepacker?style=flat-square) | Native Windows game packaging system |
+| 9 | [NotYUpscalerZAI](https://github.com/NotY215/NotYUpscalerZAI) | ![Stars](https://img.shields.io/github/stars/NotY215/NotYUpscalerZAI?style=flat-square) | Desktop image and video enhancement tool |
+| 10 | [NotyCaption-Official](https://github.com/NotY215/NotyCaption-Official) | ![Stars](https://img.shields.io/github/stars/NotY215/NotyCaption-Official?style=flat-square) | Whisper, Colab and Drive caption workflow |
+| 11 | [PPSX33-Web](https://github.com/NotY215/PPSX33-Web) | ![Stars](https://img.shields.io/github/stars/NotY215/PPSX33-Web?style=flat-square) | PPSX33 project website and technical wiki |
+| 12 | [Vayu-Website](https://github.com/NotY215/Vayu-Website) | ![Stars](https://img.shields.io/github/stars/NotY215/Vayu-Website?style=flat-square) | Vayu documentation and project website |
+| 13 | [NotY215 profile](https://github.com/NotY215/NotY215) | ![Stars](https://img.shields.io/github/stars/NotY215/NotY215?style=flat-square) | Profile README and shared profile assets |
 
-`Vayu` and its backend ecosystem are documented separately below. Public website repositories are included in the ranking too.
+Only public repositories are included. Private, deleted, or unavailable repositories are excluded.
 ---
 
 ---
@@ -67,80 +68,51 @@ All public repositories below are ordered by their current GitHub star counts, h
 </a>
 </div>
 
-**Vayu** is my main programming language project.
+**Vayu** is my main programming-language project. It combines Python-inspired syntax with a statically typed language design, type inference, a growing standard library, editor tooling, and an integrated compiler/runtime architecture.
 
-Vayu uses Python-inspired syntax with native compilation, static typing, type inference, low-level control, C/C++ interoperability, editor tooling, packages, GUI and application development, games, graphics and AI/ML support.
+### Current implementation
 
-The current native compiler path is:
+The active compiler path is **VIB (Vayu Integration Backend)**, built into the Vayu project. Its current verified execution route is:
 
 ```text
 .vyu source
-   ↓
+    |
+    v
 Vayu frontend
-   ↓
-VCBIR
-   ↓
-VCB
-   ↓
-x86-64 code generation
-   ↓
-PE or ELF executable
+    |
+    v
+Integrator lowering
+    |
+    v
+VIR
+    |
+    v
+VIR verifier
+    |
+    v
+VIR interpreter
+    |
+    v
+Program output and exit status
 ```
+
+The implemented VIR subset includes arithmetic, strings and string methods, functions, return values, recursion, and basic control flow. The optional `.vye` package writer, reader, run path, Integrator dispatch, and content-addressed cache are marked complete in the roadmap.
+
+**Native machine-code generation is still planned**, not complete. The current roadmap also tracks remaining interpreter/VM baseline repairs, branch-target verification, collections, modules, broader language support, measurement, ONNX, and release/self-host milestones.
+
+### Tooling
+
+- VS Code extension for `.vyu` files
+- Visual Studio Community language support
+- Vayu Language Server, formatter and linter
+- `nva` package-manager tooling
+- Syntax, architecture, package and AI/ML documentation
 
 **Source:** [NotY215/Vayu](https://github.com/NotY215/Vayu)  
 **Website:** [vayu.gt.tc](https://vayu.gt.tc)  
-**Syntax:** [Vayu Syntax](https://github.com/NotY215/Vayu/blob/master/docs/syntax.md)  
-**Benchmarks:** [Vayu Website](https://vayu.gt.tc/speed)  
-**VS Code:** [Vayu on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Fliczo.vayu)
-
-### Vayu ecosystem
-
-| Project | Role |
-|---|---|
-| **Vayu** | Language, compiler, runtime and tooling |
-| **VCB** | Native compiler backend |
-| **Vayu Website** | Website, documentation, roadmap and benchmarks |
-| **VS Code tooling** | Language support, LSP, formatter and linter |
-
----
-
-## ⚙️ VCB
-
-<div align="center">
-<a href="https://vayu.gt.tc/VCB">
-<img src="https://raw.githubusercontent.com/NotY215/VCB/master/Assets/VCB_banner.svg" alt="VCB banner" width="900">
-</a>
-</div>
-
-**VCB** means **Vayu Compiler Backend**.
-
-VCB is a standalone C++20 native backend for Vayu. Vayu lowers supported programs into VCBIR, then VCB handles native code generation and executable output.
-
-### Current status
-
-**VCB 0.5.3**
-
-Phases 27–31.5 are complete. Phase 31.6a and 31.6b are the current drop, with 31.6c next. The backend includes:
-
-- VCBIR parsing and printing
-- SSA-style typed IR
-- x86-64 native code generation
-- PE executable generation
-- ELF executable generation
-- Windows runtime imports
-- Linux syscall based runtime support
-- Linux bump allocation
-- List and map runtime support
-- String and collection printing
-- Demand driven runtime emission
-- PE and ELF inspection
-- Output directory creation
-- PE image padding and diagnostics
-
-The COFF and ELF object emitters, `vcb emit-obj`, `vcb link`, and the `vayuc --native` external-linker path are already implemented. Current work is focused on collection/string methods and native compiler correctness.
-
-**Repository:** [NotY215/VCB](https://github.com/NotY215/VCB)  
-**Website:** [vayu.gt.tc/VCB](https://vayu.gt.tc/VCB)
+**Roadmap:** [Vayu Engineering Roadmap](https://github.com/NotY215/Vayu/blob/master/Roadmap.md)  
+**VIB documentation:** [VIB Architecture](https://github.com/NotY215/Vayu/blob/master/docs/vib.md)  
+**VS Code:** [Vayu Marketplace extension](https://marketplace.visualstudio.com/items?itemName=Fliczo.vayu)
 
 ---
 
@@ -152,26 +124,39 @@ The COFF and ELF object emitters, `vcb emit-obj`, `vcb link`, and the `vayuc --n
 <a href="https://github.com/NotY215/PPSX33">
 <img src="https://raw.githubusercontent.com/NotY215/PPSX33/main/assets/ppsx33-banner.png" alt="PPSX33 banner" width="100%">
 <br>
-<img src="https://raw.githubusercontent.com/NotY215/PPSX33/main/assets/ppsx33-logo.png" alt="PPSX33 circular logo" width="140">
+<img src="https://raw.githubusercontent.com/NotY215/PPSX33/main/assets/ppsx33-logo.png" alt="PPSX33 logo" width="140">
 </a>
 </div>
 
-**PPSX33** is an experimental static recompiler for decrypted 64-bit big-endian PowerPC ELF input from PlayStation 3 software. Its Windows output includes a native `game.exe` and `ps3rt.dll`. The project uses C++, C and C#.
+**PPSX33** is a Windows x64 PlayStation 3 full-recompilation research project. It loads decrypted ELF input, lifts supported PPU code into generated C++, links the host runtime, and works toward reproducing the PS3 services and hardware behavior required by games.
 
-### Current status
+### Current codebase status
 
-- ELF64 big-endian loading is implemented.
-- PPU instruction translation is partial, with coverage tracked in the repository documentation.
-- The native MSVC build can produce `game.exe` and `ps3rt.dll`.
-- Runtime execution is still incomplete.
-- SPU execution and RSX graphics rendering are not implemented.
-- Full commercial-game compatibility has not been established.
+- Windows GUI, project workflow and build orchestration are present, with remaining gaps.
+- ELF loading and PPU lifting are partial. Translation coverage does not prove semantic correctness.
+- PPU runtime/control flow, LV2/PRX/NID services, SPU/MFC/DMA and SPURS are partial.
+- Vulkan 1.2 is the default host graphics path. Swapchain presentation and guest RGBA upload are implemented baselines.
+- RSX/GCM FIFO processing and assist/boot cmdstream drawing are partial. Title-authored rendering and shader behavior remain incomplete.
+- Audio, input, filesystem and save-data paths have partial implementations.
+- General game bootability and playability are not established.
 
-Current lifting reports include snapshots for God of War III, Uncharted 2 and Demon's Souls. These are static translation counts, not proof of correct runtime behavior or commercial-game compatibility. PPU semantics remain partial, SPU execution is incomplete, and RSX host rendering is not yet implemented. Use only game data and software you own or are legally authorized to process.
+The current roadmap prioritizes trustworthy PPU translation, guest runtime behavior, FIFO GET/PUT correctness, SPU behavior and title-authored RSX rendering. Diagnostic assists and static lift reports must not be presented as proof of working gameplay.
 
 **Repository:** [NotY215/PPSX33](https://github.com/NotY215/PPSX33)  
-**Build guide:** [PPSX33 README](https://github.com/NotY215/PPSX33#build-on-windows)  
-**PPU coverage:** [PPU coverage notes](https://github.com/NotY215/PPSX33/blob/main/docs/PPU_COVERAGE.md)
+**Website:** [ppsx33.xo.je](https://ppsx33.xo.je/)  
+**Roadmap:** [PPSX33 ROADMAP.md](https://github.com/NotY215/PPSX33/blob/main/ROADMAP.md)  
+**Architecture:** [Architecture guide](https://github.com/NotY215/PPSX33/blob/main/docs/ARCHITECTURE.md)
+
+---
+
+## 🌐 PPSX33-Web
+
+**PPSX33-Web** is the canonical source for the PPSX33 website. It contains the homepage, About, Architecture, Wiki/Documentation, Roadmap, Updates, FAQ and Developer pages, along with shared CSS, JavaScript, TypeScript sources and site assets.
+
+The website repository owns the page source and static assets. The host-side router is separate. The project website is a documentation and presentation layer; the PPSX33 repository remains the source of truth for implementation status.
+
+**Repository:** [NotY215/PPSX33-Web](https://github.com/NotY215/PPSX33-Web)  
+**Live website:** [ppsx33.xo.je](https://ppsx33.xo.je/)
 
 ---
 
@@ -179,7 +164,7 @@ Current lifting reports include snapshots for God of War III, Uncharted 2 and De
 
 | Project | Focus |
 |---|---|
-| <img src="https://raw.githubusercontent.com/NotY215/NotYCaptionGenAi-Light-weight/main/resources/logo.ico" alt="NotY Caption Generator logo" width="48"> **NotYCaptionGenAi-Light-weight** | v7.1 Whisper-based CLI for transcription and captions, vocal separation, YouTube/local media, translation and subtitle formatting |
+| <img src="https://raw.githubusercontent.com/NotY215/NotYCaptionGenAi-Light-weight/main/resources/logo.ico" alt="NotY Caption Generator logo" width="48"> **NotYCaptionGenAi-Light-weight** | v7.1 modular Python CLI using Whisper and Spleeter, with word-level timestamps, chunked audio processing, translation, subtitle formatting, YouTube/local media support, Nuitka and PyInstaller build paths |
 | **NotYUpscalerZAI** | AI-based video and image upscaling |
 | <img src="https://raw.githubusercontent.com/NotY215/NotyCaption-Official/refs/heads/Website/Logo.ico" alt="NotyCaption Pro logo" width="48"> **NotyCaption-Official** | NotyCaption Pro with Whisper, Google Colab and Google Drive workflows |
 
@@ -196,9 +181,9 @@ Current lifting reports include snapshots for God of War III, Uncharted 2 and De
 </a>
 </div>
 
-**AIFIAR** (Artificial Intelligence Framework for Interpretation and Reasoning) is an early-stage, provider-aware framework for structured AI-assisted software work. It includes TypeScript workflow modules, Python safety tooling, provider adapters, repository memory, task-scoped context, digest-bound patch proposals, approval boundaries and verification workflows.
+**AIFIAR** (Artificial Intelligence Framework for Interpretation and Reasoning) is an early-stage, provider-aware framework for disciplined AI-assisted software engineering. Its TypeScript workflow modules cover requirement tracking, repository context, planning, model routing, task scheduling, patch proposals, approval boundaries, transaction journaling and verification. Python tooling provides repository scanning, safety checks, patch validation and bounded command workflows, with an optional Docker runner.
 
-Current adapters cover OpenAI, xAI, Anthropic, Gemini, Qwen/Qwen Code and explicitly configured OpenAI-compatible local or self-hosted models. AIFIAR is not yet a complete autonomous coding agent. Authenticated approval UI, native Windows race-resistant file operations, production-grade host isolation and other production-readiness gates remain incomplete.
+Provider adapters include OpenAI Chat Completions and Responses, xAI, Anthropic, Gemini, Qwen/Qwen Code, and explicitly configured local or self-hosted OpenAI-compatible endpoints. The project includes language/provider instruction packs and durable repository memory. It is not yet a complete autonomous coding agent: authenticated approval UI, native Windows race-resistant file operations, production-grade host isolation and several deployment validation gates remain incomplete.
 
 **Repository:** [NotY215/AIFIAR](https://github.com/NotY215/AIFIAR)
 
@@ -216,7 +201,7 @@ Current adapters cover OpenAI, xAI, Anthropic, Gemini, Qwen/Qwen Code and explic
 
 A Windows-first game packaging and installation project for files the user legitimately owns.
 
-The current codebase is an active C/C++ project using C++20, C17, the Windows SDK, native Win32 UI, CMake and MSVC. The core Windows x64 foundation and build architecture are present; the complete package, repack and install pipeline is still in development. Cryptography is not implemented yet, so the project does not claim to provide encryption or authenticated package security.
+The current foundation uses C++20, C17, the Windows SDK, native Win32 UI, CMake and MSVC. It is designed around a versioned `.noty` package format, manifest generation, chunked processing, a generated Setup application and installation verification. The native Windows foundation and build architecture are present, but the complete package/repack/install pipeline is still in development. Cryptography is not implemented, so the project does not claim to provide encryption or authenticated package security.
 
 [Repository](https://github.com/NotY215/NotYGameRepacker)
 
@@ -228,13 +213,13 @@ The current codebase is an active C/C++ project using C++20, C17, the Windows SD
 </a>
 </div>
 
-A Fabric client-side Minecraft mod for automatic Totem of Undying management. The current README lists Minecraft 1.21.9 through 26.3, with separate builds for the Yarn-based 1.21.x line and Mojang-mapped 26.x versions.
+A lightweight Fabric client-side Minecraft mod that moves a Totem of Undying into the off-hand at a low health threshold and returns it to its original slot after recovery. It has a toggle keybind and separate builds for Minecraft 1.21.9–1.21.11 and 26.1.x–26.3, using the appropriate Yarn or Mojang mappings.
 
 [Repository](https://github.com/NotY215/AutoTotem)
 
 ### ❤️ HeartsPlugin
 
-A Minecraft plugin project.
+A lightweight Minecraft plugin with heart-based HP indicators and Vault integration for displaying player balances below the health bar.
 
 [Repository](https://github.com/NotY215/HeartsPlugin)
 
@@ -242,7 +227,7 @@ A Minecraft plugin project.
 
 # 🧪 DXFS
 
-**DXFS** is a C++17 file format and terminal editor experiment focused on compact representations of large digit sequences using packed data and generators.
+**DXFS** is a C++17 digit-container file format and terminal editor. It supports packed decimal storage and generator-based representations such as repeating patterns and known constants. Its design distinguishes genuine compression from compact recipes that regenerate predictable digit sequences; arbitrary random digits remain bounded by their information content. The project provides `dxtool` for packing, unpacking, generation and validation, plus a POSIX full-screen editor.
 
 [Repository](https://github.com/NotY215/DXFS)
 
@@ -253,10 +238,10 @@ A Minecraft plugin project.
 | Project | Website |
 |---|---|
 | **Vayu** | [vayu.gt.tc](https://vayu.gt.tc) |
-| **VCB** | [vayu.gt.tc/VCB](https://vayu.gt.tc/VCB) |
+
 | **NotyCaption Pro** | [notycaptiongen.free.nf](https://notycaptiongen.free.nf) |
 
-The Vayu website is the main place for current language information, documentation, roadmap and benchmark information.
+The Vayu website is the main place for current language information, documentation, roadmap and benchmark information. The PPSX33 website has its own source repository and technical wiki.
 
 ---
 
@@ -283,13 +268,9 @@ The Vayu website is the main place for current language information, documentati
 
 Finish the language and native compiler ecosystem around VCBIR, VCB, tooling, packages, LSP, formatter, linter, runtime and native interoperability.
 
-### VCB
-
-Continue Phase 31 collection and string methods, fix native compiler correctness issues, and advance the remaining Vayu/VCB language roadmap. COFF/ELF object emission and external-linker integration are already present.
-
 ### PPSX33
 
-Expand PPU translation coverage, improve runtime control flow and continue validating the recompiler with synthetic tests. SPU, RSX and broader compatibility remain future work.
+Continue PPU translation trust, guest runtime and HLE correctness, SPU/MFC/DMA behavior, and title-authored RSX/GCM rendering. Keep all compatibility claims tied to end-to-end evidence.
 
 ### Keep building
 
@@ -325,13 +306,13 @@ I learn by making things, breaking them, fixing them and trying again.
 
  PID   PROJECT              STATE
  001   Vayu                 BUILDING
- 002   VCB                  PHASE 31.6 ACTIVE
- 004   PPSX33               IN DEVELOPMENT
- 005   AIFIAR               ACTIVE
- 006   NotY Caption         ACTIVE
- 007   NotYGameRepacker     ACTIVE
- 008   AutoTotem            ACTIVE
- 009   DXFS                 EXPERIMENT
+ 002   PPSX33               RECOMPILER DEVELOPMENT
+ 003   AIFIAR               ACTIVE
+ 004   NotY Caption         ACTIVE
+ 005   NotYGameRepacker     FOUNDATION
+ 006   AutoTotem            ACTIVE
+ 007   DXFS                 EXPERIMENT
+ 008   PPSX33-Web           WEBSITE
 
  STATUS  : building
  FOCUS   : languages • compilers • AI workflows • systems • tools
@@ -347,29 +328,28 @@ I learn by making things, breaking them, fixing them and trying again.
 Vayu
  │
  ├── Frontend
- │    ├── Syntax
- │    ├── Types
- │    └── VcbLower
+ │    ├── Lexer / Parser
+ │    ├── Semantic Analysis
+ │    └── Integrator Lowering
  │
- ├── VCB
- │    ├── VCBIR
- │    ├── x86-64
- │    ├── PE
- │    ├── ELF
- │    └── Object + linker path
+ ├── VIB
+ │    ├── VIR
+ │    ├── VIR Verifier
+ │    ├── VIR Interpreter
+ │    └── .vye Package Track
  │
  └── Ecosystem
-      ├── LSP
-      ├── Formatter
-      ├── Linter
-      ├── Packages
-      └── Native tooling
+      ├── Language Server
+      ├── Formatter / Linter
+      ├── Package Tooling
+      └── Native Codegen (planned)
 
+PPSX33
  │
- ├── Linux / Buildroot
- ├── Wayland kiosk session
- ├── SDL2 XMB interface
- └── Future media and system features
+ ├── ELF Loading / PPU Lifting
+ ├── Guest Runtime / HLE
+ ├── SPU / MFC / DMA
+ └── RSX / GCM / Vulkan 1.2
 ```
 
 ---
