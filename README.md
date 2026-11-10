@@ -21,7 +21,7 @@
 
 ## $ whoami
 
-I am **Shreyas Mishra**. My online name is **NotY215**, and I also go by **Fliczo** online.
+I am **Shreyas Mishra**. My only public developer identity is **NotY215**.
 
 I am an independent developer working on programming languages, compilers, systems, AI, media, games and developer tools.
 
