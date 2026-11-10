@@ -112,7 +112,7 @@ The implemented VIR subset includes arithmetic, strings and string methods, func
 **Website:** [vayu.gt.tc](https://vayu.gt.tc)  
 **Roadmap:** [Vayu Engineering Roadmap](https://github.com/NotY215/Vayu/blob/master/Roadmap.md)  
 **VIB documentation:** [VIB Architecture](https://github.com/NotY215/Vayu/blob/master/docs/vib.md)  
-**VS Code:** [Vayu Marketplace extension](https://marketplace.visualstudio.com/items?itemName=Fliczo.vayu)
+**VS Code:** [Vayu Marketplace extension](https://marketplace.visualstudio.com/items?itemName=NotY215.vayu)
 
 ---
 
